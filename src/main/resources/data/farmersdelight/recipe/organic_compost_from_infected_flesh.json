@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "fd_organic_compost",
+  "ingredients": [
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "spore:mutated_fiber"
+    },
+    {
+      "item": "spore:mutated_fiber"
+    },
+    {
+      "item": "farmersdelight:straw"
+    },
+    {
+      "item": "farmersdelight:straw"
+    },
+    {
+      "item": "spore:biomass"
+    },
+    {
+      "item": "spore:biomass"
+    },
+    {
+      "item": "spore:biomass"
+    },
+    {
+      "item": "spore:biomass"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "farmersdelight:organic_compost"
+  }
+}

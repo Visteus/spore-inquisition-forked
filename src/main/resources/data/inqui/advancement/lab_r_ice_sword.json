@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "inqui:ice_sword"
+      }
+    }
+  },
+  "display": {
+    "title": "Cryo-Combat Sword",
+    "color": "dark_blue",
+    "description": "Craft the CCS with one iron block, one iron ingot, four ice, two packed ice and one stick.",
+    "icon": {
+      "id": "minecraft:iron_sword"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+    "parent": "inqui:lab_start"
+}

@@ -1,0 +1,38 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "spore:membrane_block"
+    }
+  ],
+  "processing_time": 75,
+  "results": [
+    {
+      "id": "spore:biomass"
+    },
+    {
+      "chance": 0.75,
+      "id": "spore:biomass"
+    },
+    {
+      "chance": 0.9,
+      "id": "spore:mutated_fiber"
+    },
+    {
+      "chance": 0.2,
+      "id": "spore:wing_membrane"
+    },
+    {
+      "chance": 0.5,
+      "id": "spore:tendons"
+    },
+    {
+      "chance": 0.2,
+      "id": "spore:organoid_membrane"
+    },
+    {
+      "chance": 0.6,
+      "id": "spore:nerves"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "bread": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": ["spore:vigil_eye_soup"]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "inqui:foods/vigil"
+    },
+    "parent": "inqui:root"
+}

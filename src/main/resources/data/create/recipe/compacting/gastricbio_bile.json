@@ -1,0 +1,16 @@
+{
+  "type": "create:compacting",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "spore:gastric_biomass_block"
+    }
+  ],
+  "results": [
+    {
+      "type": "neoforge:single",
+      "amount": 500,
+      "id": "spore:bile"
+    }
+  ]
+}

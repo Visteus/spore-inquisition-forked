@@ -1,0 +1,18 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 10,
+      "fluid": "spore:bile"
+    },
+    {
+      "item": "spore:biomass"
+    }
+  ],
+  "results": [
+    {
+      "id": "spore:crusted_bile"
+    }
+  ]
+}

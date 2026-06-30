@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CWM",
+        "ASA",
+        "MWC"
+    ],
+    "key": {
+        "S": {
+            "item": "spore:biomass"
+        },
+        "A": {
+            "item": "minecraft:golden_apple"
+        },
+        "M": {
+            "item": "minecraft:glistering_melon_slice"
+        },
+        "W": {
+            "item": "minecraft:nether_wart"
+        },
+        "C": {
+            "item": "minecraft:golden_carrot"
+        }
+    },
+    "result": {
+        "id": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

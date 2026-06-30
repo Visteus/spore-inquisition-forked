@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "XYZ",
+        "YDY",
+        "ZYX"
+    ],
+    "key": {
+        "Z": {
+            "item": "spore:reforged_biomass_a"
+        },
+        "X": {
+            "item": "spore:acidic_gland"
+        },
+        "Y": {
+            "item": "spore:corrosive_reagent"
+        },
+        "D": {
+            "item": "spore:infected_crossbow"
+        }
+    },
+    "result": {
+        "id": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "minecraft:iron_block"
+    },
+    "D": {
+      "item": "minecraft:ice"
+    },
+    "I": {
+      "item": "minecraft:packed_ice"
+    }
+  },
+  "pattern": [
+    "DXD",
+    "DBD",
+    "I#I"
+  ],
+  "result": {
+    "id": "minecraft:knowledge_book",
+    "count": 1
+  },
+  "show_notification": true
+}

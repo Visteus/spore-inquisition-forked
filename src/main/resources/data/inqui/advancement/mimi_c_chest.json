@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "inqui:m_chest"
+      }
+    }
+  },
+  "display": {
+    "title": "§4§kAlae Angelicae",
+    "color": "dark_red",
+    "description": "§4Surround a living chestplate MK2 with airborne reforged biomass in a crafting table to get this artifact.",
+    "icon": {
+      "id": "spore:inf_up_chest"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+    "parent": "inqui:mimi_c_legs"
+}

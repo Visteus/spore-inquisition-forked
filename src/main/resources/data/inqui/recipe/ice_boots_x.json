@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": {
+      "item": "minecraft:diamond"
+    },
+    "I": {
+      "item": "minecraft:budding_amethyst"
+    },
+    "B": {
+      "item": "spore:cdu"
+    }
+  },
+  "pattern": [
+    "   ",
+    "X X",
+    "IBI"
+  ],
+  "result": {
+    "id": "minecraft:knowledge_book",
+    "count": 1
+  },
+  "show_notification": true
+}

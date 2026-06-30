@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"spore:rapier"
+							],
+            "predicates": {
+                  "minecraft:custom_data": {
+                    "mimicry": true
+                  }
+                }				
+            }
+					}
+				}
+      }
+    }
+  },
+  "rewards": {
+    "function": "inqui:weapons/mimicry7"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "minecraft:red_mushroom"
+    },
+    {
+      "item": "spore:nerves"
+    },
+    [
+      {
+        "item": "spore:mutated_fiber"
+      },
+      {
+        "item": "spore:biomass"
+      }
+    ]
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "farmersdelight:mushroom_rice"
+  }
+}

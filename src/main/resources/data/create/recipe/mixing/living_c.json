@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 500,
+      "fluid": "spore:bile"
+    },
+    {
+      "item": "spore:living_chest"
+    },
+    {
+      "item": "spore:plated_chest"
+    }
+  ],
+  "results": [
+    {
+      "id": "spore:inf_chest"
+    }
+  ]
+}

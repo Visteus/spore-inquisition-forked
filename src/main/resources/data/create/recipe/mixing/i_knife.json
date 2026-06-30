@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 100,
+      "fluid": "spore:bile"
+    },
+    {
+      "item": "spore:claw_fragment"
+    },
+    {
+      "item": "spore:mutated_fiber"
+    }
+  ],
+  "results": [
+    {
+      "id": "spore:knife"
+    }
+  ]
+}

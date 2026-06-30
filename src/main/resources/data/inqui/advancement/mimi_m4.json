@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "inqui:mimicry4"
+      }
+    }
+  },
+  "display": {
+    "title": "§4§kThe Eternal Meal",
+    "color": "dark_red",
+    "description": "§4Surround an Infected Battleaxe with each type of calamity food and five voracious reagents to get the axe that yearns for flesh and festers in the life of all beings equally.",
+    "icon": {
+      "id": "spore:armads"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+    "parent": "inqui:mimi_m3"
+}

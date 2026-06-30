@@ -1,0 +1,28 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "spore:fungal_sauce"
+  },
+  "cookingtime": 250,
+  "experience": 10.0,
+  "ingredients": [
+    {
+      "item": "spore:reforged_biomass_a"
+    },
+    {
+      "item": "minecraft:red_mushroom"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "spore:biomass"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 2,
+    "id": "spore:stuffed_abomination"
+  }
+}

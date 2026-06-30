@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "bread": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": ["spore:fungal_burger"]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "inqui:foods/borger"
+    },
+    "parent": "inqui:root"
+}

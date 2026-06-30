@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#X#",
+        "XDX",
+        "#X#"
+    ],
+    "key": {
+        "#": {
+            "item": "spore:reforged_biomass_t"
+        },
+        "X": {
+            "item": "spore:amalgamated_heart"
+        },
+        "D": {
+            "item": "spore:greatsword"
+        }
+    },
+    "result": {
+        "id": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

@@ -1,0 +1,57 @@
+plugins {
+    // NeoForge ModDevGradle: the standard build/dev plugin for NeoForge 1.21.1.
+    // Even though this mod ships no compiled code (it is a pure data + resource
+    // pack add-on for the "spore" mod), ModDevGradle gives us a faithful
+    // NeoForge dev environment plus runClient / runServer for testing changes.
+    id 'net.neoforged.moddev' version '2.0.78'
+}
+
+version = mod_version
+group = mod_group_id
+
+base {
+    archivesName = mod_id
+}
+
+java {
+    // NeoForge 1.21.1 targets Java 21.
+    toolchain.languageVersion = JavaLanguageVersion.of(21)
+}
+
+repositories {
+    mavenCentral()
+    maven {
+        name = 'NeoForged'
+        url = 'https://maven.neoforged.net/releases'
+    }
+}
+
+neoForge {
+    version = neoforge_version
+
+    // Register the mod so ModDevGradle wires src/main/resources (the unpacked
+    // jar contents) into the dev runtime and the produced jar.
+    mods {
+        "${mod_id}" {
+            sourceSet sourceSets.main
+        }
+    }
+
+    runs {
+        client {
+            client()
+            // Stable per-mod gradle user-name for online testing, if desired.
+            systemProperty 'neoforge.enabledGameTestNamespaces', mod_id
+        }
+        server {
+            server()
+            systemProperty 'neoforge.enabledGameTestNamespaces', mod_id
+        }
+    }
+}
+
+// This mod is content for other mods (spore, create, farmersdelight,
+// incendium). Those are NOT on a public Maven repo, so runClient/runServer
+// will launch a vanilla+NeoForge instance WITHOUT them unless you drop the
+// dependency jars into a configured run mod folder. Building the jar
+// (./gradlew build) works regardless and reproduces the distributable mod.

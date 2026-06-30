@@ -1,0 +1,28 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "spore:fungal_sauce"
+  },
+  "cookingtime": 250,
+  "experience": 10.0,
+  "ingredients": [
+    {
+      "item": "spore:reforged_biomass_w"
+    },
+    {
+      "item": "minecraft:kelp"
+    },
+    {
+      "item": "farmersdelight:cod_slice"
+    },
+    {
+      "item": "spore:biomass"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 2,
+    "id": "spore:eldritch_sushi"
+  }
+}

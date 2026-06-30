@@ -1,0 +1,1 @@
+summon spore:nuke ~ ~ ~ {init_range:5 ,range:20 ,init_duration:0 ,duration:900,damage:20f}

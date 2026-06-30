@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "inqui:m_chest"
+      }
+    }
+  },
+  "rewards": {
+    "function": "inqui:craft_m_chest"
+  }
+}

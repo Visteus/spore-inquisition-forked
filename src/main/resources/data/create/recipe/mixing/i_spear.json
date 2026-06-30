@@ -1,0 +1,28 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "spore:living_core"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 200,
+      "fluid": "spore:bile"
+    },
+    {
+      "item": "spore:claw"
+    },
+    {
+      "item": "spore:fleshy_claw"
+    },
+    {
+      "item": "spore:spine"
+    }
+  ],
+  "results": [
+    {
+      "id": "spore:infected_spear"
+    }
+  ]
+}

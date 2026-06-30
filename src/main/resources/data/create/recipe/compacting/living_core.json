@@ -1,0 +1,30 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 100,
+      "fluid": "spore:bile"
+    },
+    {
+      "item": "spore:mutated_fiber"
+    },
+    {
+      "item": "spore:mutated_fiber"
+    },
+    {
+      "item": "spore:mutated_heart"
+    },
+    {
+      "item": "spore:armor_fragment"
+    },
+    {
+      "item": "spore:armor_fragment"
+    }
+  ],
+  "results": [
+    {
+      "id": "spore:living_core"
+    }
+  ]
+}

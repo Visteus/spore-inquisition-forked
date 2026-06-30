@@ -1,0 +1,22 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "spore:freeze_burned_biomass"
+    }
+  ],
+  "processing_time": 250,
+  "results": [
+    {
+      "id": "spore:frozen_decayed_biomass"
+    },
+    {
+      "chance": 0.5,
+      "id": "minecraft:snowball"
+    },
+    {
+      "chance": 0.5,
+      "id": "minecraft:ice"
+    }
+  ]
+}

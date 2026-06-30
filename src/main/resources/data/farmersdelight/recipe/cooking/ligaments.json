@@ -1,0 +1,34 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "spore:living_core"
+  },
+  "cookingtime": 500,
+  "experience": 50.0,
+  "ingredients": [
+    {
+      "item": "spore:reforged_biomass_a"
+    },
+    {
+      "item": "spore:reforged_biomass_a"
+    },
+    {
+      "item": "spore:tendons"
+    },
+    {
+      "item": "spore:tendons"
+    },
+    {
+      "item": "spore:tendons"
+    },
+    {
+      "item": "spore:tendons"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "spore:ligaments"
+  }
+}

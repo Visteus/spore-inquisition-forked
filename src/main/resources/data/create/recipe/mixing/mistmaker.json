@@ -1,0 +1,34 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 1000,
+      "fluid": "spore:bile"
+    },
+    {
+      "item": "spore:skull_soup"
+    },
+    {
+      "item": "spore:voracious_reagent"
+    },
+    {
+      "item": "spore:amalgamated_heart"
+    },
+    {
+      "item": "spore:spine"
+    },
+    {
+      "item": "spore:innards"
+    },
+    {
+      "item": "spore:plated_muscle"
+    }
+  ],
+  "results": [
+    {
+      "id": "spore:mistmaker"
+    }
+  ]
+}

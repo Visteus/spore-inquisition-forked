@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "BNB",
+        "AWA",
+        "BNB"
+    ],
+    "key": {
+        "A": {
+            "item": "spore:amalgamated_heart"
+        },
+        "B": {
+            "item": "minecraft:blaze_rod"
+        },
+        "N": {
+            "item": "minecraft:netherite_ingot"
+        },
+        "W": {
+            "item": "spore:infected_spear"
+        }
+    },
+    "result": {
+        "id": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "farmersdelight:pie_crust"
+  },
+  "cookingtime": 200,
+  "experience": 2.0,
+  "ingredients": [
+    {
+      "item": "spore:biomass"
+    },
+    {
+      "item": "spore:biomass"
+    },
+    {
+      "item": "spore:mutated_fiber"
+    },
+    {
+      "item": "spore:tumor"
+    },
+    {
+      "item": "spore:mutated_heart"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "spore:heart_pie"
+  }
+}

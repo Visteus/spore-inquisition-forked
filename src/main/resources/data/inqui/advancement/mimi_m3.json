@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "inqui:mimicry3"
+      }
+    }
+  },
+  "display": {
+    "title": "§4§kThe Fruit of Understanding",
+    "color": "dark_red",
+    "description": "§4Surround an Infected Bow with four airbone reforged biomass and four hyperbolized livers to get the bow with the strength to destroy the blood wings of a fallen angel.",
+    "icon": {
+      "id": "spore:infected_bow"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+    "parent": "inqui:mimi_m2"
+}

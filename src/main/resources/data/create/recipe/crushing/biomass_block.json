@@ -1,0 +1,38 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "spore:biomass_block"
+    }
+  ],
+  "processing_time": 100,
+  "results": [
+    {
+      "id": "spore:biomass"
+    },
+    {
+      "chance": 0.75,
+      "id": "spore:biomass"
+    },
+    {
+      "chance": 0.6,
+      "id": "spore:mutated_fiber"
+    },
+    {
+      "chance": 0.3,
+      "id": "spore:armor_fragment"
+    },
+    {
+      "chance": 0.2,
+      "id": "spore:claw_fragment"
+    },
+    {
+      "chance": 0.1,
+      "id": "spore:mutated_heart"
+    },
+    {
+      "chance": 0.15,
+      "id": "spore:tendons"
+    }
+  ]
+}

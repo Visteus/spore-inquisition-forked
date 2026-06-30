@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "inqui:mimicry9"
+      }
+    }
+  },
+  "display": {
+    "title": "§4§kArmaments",
+    "color": "dark_red",
+    "description": "§4Surround an infected crossbow with four corrosive reagent, two airborne reforged biomass and two acidic glands to get the crossbow who leaves no heart unpierced.",
+    "icon": {
+      "id": "spore:infected_crossbow"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+    "parent": "inqui:mimi_m8"
+}

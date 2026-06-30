@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "DDD",
+        "ASA",
+        "TTT"
+    ],
+    "key": {
+        "S": {
+            "item": "spore:biomass"
+        },
+        "T": {
+            "item": "minecraft:cake"
+        },
+        "A": {
+            "item": "minecraft:enchanted_golden_apple"
+        },
+        "D": {
+            "item": "minecraft:dragon_breath"
+        }
+    },
+    "result": {
+        "id": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

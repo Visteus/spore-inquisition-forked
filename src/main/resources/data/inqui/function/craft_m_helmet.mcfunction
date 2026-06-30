@@ -1,0 +1,5 @@
+advancement revoke @s only inqui:c_m_helmet
+
+clear @s minecraft:knowledge_book 1
+give @p spore:inf_up_helmet[custom_name='[{"text":"Desiderium","color":"#ff0000","bold":true}]',enchantments={levels:{"spore:symbiotic_reconstitution":2,"minecraft:unbreaking":5}},lore=['{"text":"Carrying the lingering desires of the departed, you shall keep moving forward, fulfilling the wishes of those who can no longer seek salvation.","color":"dark_red","bold":false}'],attribute_modifiers={modifiers:[{type:"generic.armor",amount:6,slot:head,id:1773346641393,operation:add_value}, {type:"generic.armor_toughness",amount:4.5,slot:head,id:1773346641393,operation:add_value}, {type:"generic.knockback_resistance",amount:0.15,slot:head,id:1773346641393,operation:add_value}, {type:"generic.max_health",amount:5,slot:head,id:1773346641393,operation:add_value}, {type:"player.entity_interaction_range",amount:5,slot:head,id:1773346641393,operation:add_value}]}]
+kill @e[type=item,name="Knowledge Book"]

@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "triggered": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "title": "§4The Path of Belief",
+    "description": "§4We didn't get the answer; however, we now understand that heaven is something we must create ourselves, so we will take all the land and turn it into the heaven we desire.",
+    "icon": {
+      "id": "spore:sieger_spawnegg"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+    "parent": "inqui:a_4"
+}

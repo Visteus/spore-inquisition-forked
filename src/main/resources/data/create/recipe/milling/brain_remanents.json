@@ -1,0 +1,26 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "spore:brain_remnants"
+    }
+  ],
+  "processing_time": 200,
+  "results": [
+    {
+      "id": "spore:cerebrum"
+    },
+    {
+      "chance": 0.25,
+      "id": "spore:reforged_biomass_t"
+    },
+    {
+      "chance": 0.25,
+      "id": "spore:reforged_biomass_w"
+    },
+    {
+      "chance": 0.25,
+      "id": "spore:reforged_biomass_a"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "type": "create:compacting",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "spore:living_core"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 250,
+      "fluid": "spore:bile"
+    },
+    {
+      "item": "spore:armor_plate"
+    },
+    {
+      "item": "spore:armor_plate"
+    },
+    {
+      "item": "spore:shield_fragment"
+    },
+    {
+      "item": "spore:shield_fragment"
+    }
+    
+  ],
+  "results": [
+    {
+      "id": "spore:shield"
+    }
+  ]
+}

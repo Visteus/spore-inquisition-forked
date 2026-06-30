@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "inqui:mimicry2"
+      }
+    }
+  },
+  "display": {
+    "title": "§4§kThe Food Chain",
+    "color": "dark_red",
+    "description": "§4Surround an Infected Combat Pickaxe with four aquatic reforged biomass and four hypersuspensile ligaments to get the pickaxe capable of shattering the pillars that uphold a delusional god.",
+    "icon": {
+      "id": "spore:combat_pickaxe"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+    "parent": "inqui:mimi_m1"
+}

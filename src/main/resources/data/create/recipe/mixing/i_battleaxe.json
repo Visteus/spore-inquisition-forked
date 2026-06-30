@@ -1,0 +1,34 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 300,
+      "fluid": "spore:bile"
+    },
+    {
+      "item": "spore:living_core"
+    },
+    {
+      "item": "spore:fleshy_claw"
+    },
+    {
+      "item": "spore:fleshy_claw"
+    },
+    {
+      "item": "spore:fleshy_claw"
+    },
+    {
+      "item": "spore:fleshy_claw"
+    },
+    {
+      "item": "spore:fleshy_bone"
+    }
+  ],
+  "results": [
+    {
+      "id": "spore:armads"
+    }
+  ]
+}

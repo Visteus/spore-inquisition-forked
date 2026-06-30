@@ -1,0 +1,7 @@
+{
+  "replace": true,
+  "values": [
+    "spore:wall_growths",
+    "spore:wall_growths_big"
+    ]
+}

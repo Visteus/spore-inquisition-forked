@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "angry": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+				"player": {
+          "equipment": {
+						"mainhand": {
+							"items": [
+								"spore:cleaver"
+							],
+              "predicates": {
+                  "minecraft:custom_data": {
+                    "mimicry": true
+                  }
+                }				
+            }
+					}
+				},
+        "entity": {
+          "type": "#spore:fungus_entities"
+        }
+      }
+    }
+  },
+  "rewards": {"function": "inqui:weapons/mimicry11b"}
+}

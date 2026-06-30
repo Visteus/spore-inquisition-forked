@@ -1,0 +1,38 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "spore:sicken_biomass_block"
+    }
+  ],
+  "processing_time": 150,
+  "results": [
+    {
+      "id": "spore:biomass"
+    },
+    {
+      "chance": 0.5,
+      "id": "spore:biomass"
+    },
+    {
+      "chance": 0.4,
+      "id": "spore:mutated_fiber"
+    },
+    {
+      "chance": 0.2,
+      "id": "spore:alveolic_sack"
+    },
+    {
+      "chance": 0.1,
+      "id": "spore:altered_spleen"
+    },
+    {
+      "chance": 0.4,
+      "id": "spore:corrosive_sack"
+    },
+    {
+      "chance": 0.2,
+      "id": "spore:sicken_tumor"
+    }
+  ]
+}

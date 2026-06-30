@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "spore:biomass"
+    },
+    {
+      "item": "spore:biomass"
+    },
+    {
+      "item": "spore:biomass"
+    },
+    {
+      "item": "spore:biomass"
+    }
+  ],
+  "results": [
+    {
+      "id": "spore:biomass_block"
+    }
+  ]
+}

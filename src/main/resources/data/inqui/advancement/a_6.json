@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "triggered": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "title": "§4The Final Bell Tolls",
+    "color": "red",
+    "description": "§4We shall toll the last bell of the old world, and the first of the new. Prepare thyself, for you shall finally be free",
+    "icon": {
+      "id": "spore:brain_remnants"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+    "parent": "inqui:a_5"
+}

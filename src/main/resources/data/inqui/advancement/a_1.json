@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "triggered": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "title": {
+      "text": "§cThe Doubt"
+    },
+    "description": {
+      "text": "§cOne day, a question crossed through my mind. Where do we come from? We were given life and left in this world against our own volition."
+    },
+    "icon": {
+      "id": "spore:biomass_lump"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "inqui:root"
+}

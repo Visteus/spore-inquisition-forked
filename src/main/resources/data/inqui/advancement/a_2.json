@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "triggered": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "title": "§cThe Process of Understanding",
+    "description": "§cIn the end, they were bound to life. We existed only to express despair and ire.",
+    "icon": {
+      "id": "spore:vigil_eye"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+    "parent": "inqui:a_1"
+}

@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "inqui:m_feet"
+      }
+    }
+  },
+  "display": {
+    "title": "§4§kLitus Doloris",
+    "color": "dark_red",
+    "description": "§4Surround living boots MK2 with aquatic reforged biomass to get this artifact.",
+    "icon": {
+      "id": "spore:inf_up_boots"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+    "parent": "inqui:mimi_start"
+}

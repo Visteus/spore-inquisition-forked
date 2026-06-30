@@ -1,0 +1,30 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "spore:brain_remnants"
+    }
+  ],
+  "processing_time": 100,
+  "results": [
+    {
+      "id": "spore:cerebrum"
+    },
+    {
+      "chance": 0.5,
+      "id": "spore:reforged_biomass_t"
+    },
+    {
+      "chance": 0.5,
+      "id": "spore:reforged_biomass_w"
+    },
+    {
+      "chance": 0.5,
+      "id": "spore:reforged_biomass_a"
+    },
+    {
+      "chance": 0.1,
+      "id": "spore:outpost_watcher"
+    }
+  ]
+}

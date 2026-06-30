@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "bread": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": ["spore:heart_kebab"]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "inqui:foods/heart"
+    },
+    "parent": "inqui:root"
+}

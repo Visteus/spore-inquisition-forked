@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#Y#",
+        "#D#",
+        "X#Z"
+    ],
+    "key": {
+        "#": {
+            "item": "spore:voracious_reagent"
+        },
+        "X": {
+            "item": "spore:amalgamated_roast"
+        },
+        "Y": {
+            "item": "spore:eldritch_sushi"
+        },
+        "Z": {
+            "item": "spore:stuffed_abomination"
+        },
+        "D": {
+            "item": "spore:armads"
+        }
+    },
+    "result": {
+        "id": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

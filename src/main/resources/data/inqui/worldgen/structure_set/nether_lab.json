@@ -1,0 +1,15 @@
+
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 12427824,
+    "separation": 18,
+    "spacing": 46
+  },
+  "structures": [
+    {
+      "structure": "inqui:nether_lab",
+      "weight": 1
+    }
+  ]
+}

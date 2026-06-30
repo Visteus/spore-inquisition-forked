@@ -1,0 +1,37 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "spore:living_core"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 325,
+      "fluid": "spore:bile"
+    },
+    {
+      "item": "spore:claw"
+    },
+    {
+      "item": "spore:fleshy_claw"
+    },
+    {
+      "item": "spore:fleshy_claw"
+    },
+    {
+      "item": "spore:hardened_bind"
+    },
+    {
+      "item": "spore:tendons"
+    },
+    {
+      "item": "spore:tendons"
+    }
+  ],
+  "results": [
+    {
+      "id": "spore:infected_crossbow"
+    }
+  ]
+}

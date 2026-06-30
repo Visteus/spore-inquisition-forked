@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "bread": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": ["spore:biomass_bacon"]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "inqui:foods/bacon"
+    },
+    "parent": "inqui:root"
+}

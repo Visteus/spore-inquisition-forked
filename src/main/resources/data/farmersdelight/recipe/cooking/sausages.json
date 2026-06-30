@@ -1,0 +1,30 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 2.0,
+  "ingredients": [
+    {
+      "item": "spore:biomass"
+    },
+    {
+      "item": "spore:mutated_fiber"
+    },
+    {
+      "item": "spore:biomass"
+    },
+    {
+      "item": "spore:mutated_fiber"
+    },
+    {
+      "item": "spore:biomass"
+    },
+    {
+      "item": "spore:innards"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 8,
+    "id": "spore:sausage"
+  }
+}

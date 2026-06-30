@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "triggered": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "title": "§1§lTÉLOS",
+    "color": "red",
+    "description": "§1There wasn't an answer. We didn't find a single thing we wanted. We only witnessed the death of life itself.",
+    "icon": {
+      "id": "spore:freeze_burned_biomass"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+    "parent": "inqui:root"
+}

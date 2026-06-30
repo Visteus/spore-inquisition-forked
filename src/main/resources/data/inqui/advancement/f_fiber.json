@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "bread": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": ["spore:fiber_stew"]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "inqui:foods/fiber"
+    },
+    "parent": "inqui:root"
+}

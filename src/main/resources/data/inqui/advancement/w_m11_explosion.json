@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+        "conditions": {
+				"player": {
+          "flags": {
+            "is_sneaking": true
+          },
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"spore:cleaver"
+							],
+              "predicates": {
+                  "minecraft:custom_data": {
+                    "mimicry": true
+                  }
+                }				
+            }
+					}
+				}
+      }
+    }
+  },
+  "rewards": {
+    "function": "inqui:weapons/mimicry11_explosion"
+  }
+}

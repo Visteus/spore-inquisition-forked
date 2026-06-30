@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "bread": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": ["spore:fried_wing_membrane"]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "inqui:foods/wing"
+    },
+    "parent": "inqui:root"
+}

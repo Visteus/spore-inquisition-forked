@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "inqui:mimicry8"
+      }
+    }
+  },
+  "display": {
+    "title": "§4§kThe Harmony of Skin",
+    "color": "dark_red",
+    "description": "§4Surround a brain remnant with three airborne reforged biomass, three terrestrial biomass and two infected shields to get the shield with the power to deflect even the strongest of attacks.",
+    "icon": {
+      "id": "spore:shield"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+    "parent": "inqui:mimi_m7"
+}

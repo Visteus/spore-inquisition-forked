@@ -1,0 +1,22 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "spore:freeze_burned_biomass"
+    },
+    {
+      "item": "spore:freeze_burned_biomass"
+    },
+    {
+      "item": "spore:ice_canister"
+    },
+    {
+      "item": "spore:living_core"
+    }
+  ],
+  "results": [
+    {
+      "id": "spore:cryogenic_reagent"
+    }
+  ]
+}

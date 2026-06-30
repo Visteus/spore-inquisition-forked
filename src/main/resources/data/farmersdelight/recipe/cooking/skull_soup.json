@@ -1,0 +1,28 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "minecraft:bone_block"
+  },
+  "cookingtime": 150,
+  "experience": 1.5,
+  "ingredients": [
+    {
+      "item": "spore:biomass"
+    },
+    {
+      "item": "spore:biomass"
+    },
+    {
+      "item": "spore:mutated_fiber"
+    },
+    {
+      "item": "spore:mutated_fiber"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 2,
+    "id": "spore:skull_soup"
+  }
+}

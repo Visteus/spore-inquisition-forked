@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "XXX",
+        "XZX",
+        "XXX"
+    ],
+    "key": {
+        "X": {
+            "item": "spore:cerebrum"
+        },
+        "Z": {
+            "item": "spore:vigil_eye"
+        }
+    },
+    "result": {
+        "id": "spore:brain_remnants",
+        "count": 1
+    }
+}

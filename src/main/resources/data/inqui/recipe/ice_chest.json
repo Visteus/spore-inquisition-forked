@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": {
+      "item": "spore:compound_plate"
+    },
+    "I": {
+      "item": "spore:ice_canister"
+    },
+    "C": {
+      "item": "spore:cdu"
+    }
+  },
+  "pattern": [
+    "I I",
+    "XCX",
+    "XXX"
+  ],
+  "result": {
+    "id": "minecraft:knowledge_book",
+    "count": 1
+  },
+  "show_notification": true
+}

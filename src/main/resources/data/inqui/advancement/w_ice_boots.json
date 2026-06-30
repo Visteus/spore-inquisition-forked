@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+        "conditions": {
+				"player": {
+					"equipment": {
+						"feet": {
+							"items": [
+								"minecraft:iron_boots"
+							],
+            "predicates": {
+                  "minecraft:custom_data": {
+                    "cca": true
+                  }
+                }					
+            }
+					}
+				}
+      }
+    }
+  },
+  "rewards": {
+    "function": "inqui:weapons/ice_boots"
+  }
+}

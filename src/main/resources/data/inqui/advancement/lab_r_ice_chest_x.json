@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "inqui:ice_chest_x"
+      }
+    }
+  },
+  "display": {
+    "title": "SubZero-Combat Chestplate",
+    "color": "blue",
+    "description": "Craft the SCC with five diamonds, two ice canisthers, two circuit boards and a C.D.U.(don't equip it if you have spore armor/weapons in your inventory)",
+    "icon": {
+      "id": "minecraft:diamond_chestplate"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+    "parent": "inqui:lab_r_ice_leegs_x"
+}

@@ -1,0 +1,28 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "spore:mutated_fiber"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 100,
+      "fluid": "spore:bile",
+      "nbt": {}
+    },
+    {
+      "item": "spore:nerves"
+    },
+    {
+      "item": "spore:mutated_heart"
+    },
+    {
+      "item": "spore:living_core"
+    }
+  ],
+  "results": [
+    {
+      "id": "spore:symbiotic_reagent"
+    }
+  ]
+}

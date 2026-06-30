@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "inqui:ice_sword_x"
+      }
+    }
+  },
+  "display": {
+    "title": "Sub-Zero Sword",
+    "color": "dark_blue",
+    "description": "Craft the SZS with one compound plate, one diamond block, one diamond, two budding amethyst, and four blocks of blue ice.",
+    "icon": {
+      "id": "minecraft:diamond_sword"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+    "parent": "inqui:lab_r_ice_shield"
+}

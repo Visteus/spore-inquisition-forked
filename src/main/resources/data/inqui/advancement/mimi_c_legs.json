@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "inqui:m_leegs"
+      }
+    }
+  },
+  "display": {
+    "title": "§4§kVia Ad Auroram",
+    "color": "dark_red",
+    "description": "§4Surround living leggins MK2 with terrestrial reforged biomass in a crafting table to get this artifact.",
+    "icon": {
+      "id": "spore:inf_up_pants"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+    "parent": "inqui:mimi_c_feet"
+}

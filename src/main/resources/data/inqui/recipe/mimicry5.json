@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#Y#",
+        "XDY",
+        "#X#"
+    ],
+    "key": {
+        "#": {
+            "item": "spore:reforged_biomass_w"
+        },
+        "X": {
+            "item": "minecraft:soul_lantern"
+        },
+        "Y": {
+            "item": "minecraft:sculk_catalyst"
+        },
+        "D": {
+            "item": "spore:scythe"
+        }
+    },
+    "result": {
+        "id": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

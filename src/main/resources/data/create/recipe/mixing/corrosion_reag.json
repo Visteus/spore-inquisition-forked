@@ -1,0 +1,28 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "spore:mutated_fiber"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 100,
+      "fluid": "spore:bile",
+      "nbt": {}
+    },
+    {
+      "item": "spore:altered_spleen"
+    },
+    {
+      "item": "spore:corrosive_sack"
+    },
+    {
+      "item": "spore:living_core"
+    }
+  ],
+  "results": [
+    {
+      "id": "spore:corrosive_reagent"
+    }
+  ]
+}

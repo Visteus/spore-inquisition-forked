@@ -1,0 +1,31 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "spore:tendons"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 200,
+      "fluid": "minecraft:water",
+      "nbt": {}
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "results": [
+    {
+      "id": "spore:tendon_gum"
+    },     
+    {
+      "id": "spore:tendon_gum"
+    },
+    {
+      "id": "spore:tendon_gum"
+    },
+    {
+      "id": "spore:tendon_gum"
+    }
+  ]
+}

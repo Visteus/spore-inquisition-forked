@@ -1,0 +1,27 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "spore:biomass"
+    },
+    {
+      "item": "spore:biomass"
+    },
+    {
+      "item": "spore:biomass"
+    },
+    {
+      "item": "spore:biomass"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 100,
+      "fluid": "spore:bile"
+    }
+  ],
+  "results": [
+    {
+      "id": "spore:gastric_biomass_block"
+    }
+  ]
+}

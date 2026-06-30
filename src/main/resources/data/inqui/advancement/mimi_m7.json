@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "inqui:mimicry7"
+      }
+    }
+  },
+  "display": {
+    "title": "§4§kThe Sweepers",
+    "color": "dark_red",
+    "description": "§4Surround an Infected Rapier with three airborne reforged biomass, two Acidimetric glans and three Corrosive reagents to get the rapier capable of melting everything that dares to stand in its way.",
+    "icon": {
+      "id": "spore:rapier"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+    "parent": "inqui:mimi_m6"
+}

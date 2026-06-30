@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:cobbled_deepslate"
+    },
+    "X": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "minecraft:iron_block"
+    },
+    "D": {
+      "item": "spore:syringe"
+    },
+    "I": {
+      "item": "minecraft:lead"
+    }
+  },
+  "pattern": [
+    " X ",
+    "DB ",
+    "I#I"
+  ],
+  "result": {
+    "id": "spore:pci",
+    "count": 1
+  },
+  "show_notification": true
+}

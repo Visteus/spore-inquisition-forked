@@ -1,0 +1,34 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 500,
+      "fluid": "spore:bile"
+    },
+    {
+      "item": "spore:plated_muscle"
+    },
+    {
+      "item": "spore:plated_muscle"
+    },
+    {
+      "item": "spore:plated_muscle"
+    },
+    {
+      "item": "spore:alveolic_sack"
+    },
+    {
+      "item": "spore:innards"
+    },
+    {
+      "item": "spore:tendons"
+    }
+  ],
+  "results": [
+    {
+      "id": "spore:living_chest"
+    }
+  ]
+}

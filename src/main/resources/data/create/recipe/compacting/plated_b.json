@@ -1,0 +1,28 @@
+{
+  "type": "create:compacting",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 100,
+      "fluid": "spore:bile"
+    },
+    {
+      "item": "spore:armor_plate"
+    },
+    {
+      "item": "spore:armor_plate"
+    },
+    {
+      "item": "spore:armor_plate"
+    },
+    {
+      "item": "spore:armor_fragment"
+    }
+  ],
+  "results": [
+    {
+      "id": "spore:plated_boots"
+    }
+  ]
+}

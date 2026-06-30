@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 1000,
+      "fluid": "spore:bile"
+    },
+    {
+      "item": "spore:inf_boots"
+    },
+    {
+      "item": "spore:fleshy_claw"
+    }
+  ],
+  "results": [
+    {
+      "id": "spore:inf_up_boots"
+    }
+  ]
+}

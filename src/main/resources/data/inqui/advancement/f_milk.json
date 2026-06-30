@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "bread": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": ["spore:milky_sack"]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "inqui:foods/milk"
+    },
+    "parent": "inqui:root"
+}

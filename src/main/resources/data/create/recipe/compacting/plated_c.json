@@ -1,0 +1,31 @@
+{
+  "type": "create:compacting",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 300,
+      "fluid": "spore:bile"
+    },
+    {
+      "item": "spore:armor_plate"
+    },
+    {
+      "item": "spore:armor_plate"
+    },
+    {
+      "item": "spore:armor_plate"
+    },
+    {
+      "item": "spore:armor_fragment"
+    },
+    {
+      "item": "spore:spine"
+    }
+  ],
+  "results": [
+    {
+      "id": "spore:plated_chest"
+    }
+  ]
+}

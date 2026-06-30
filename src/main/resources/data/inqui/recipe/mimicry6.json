@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#Y#",
+        "XDX",
+        "Y#Y"
+    ],
+    "key": {
+        "#": {
+            "item": "spore:reforged_biomass_t"
+        },
+        "X": {
+            "item": "spore:hyperbolized_liver"
+        },
+        "Y": {
+            "item": "spore:gastric_reagent"
+        },
+        "D": {
+            "item": "spore:mace"
+        }
+    },
+    "result": {
+        "id": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

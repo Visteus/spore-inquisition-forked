@@ -1,0 +1,41 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ABC",
+        "DWE",
+        "FGH"
+    ],
+    "key": {
+        "A": {
+            "item": "spore:reforged_biomass_w"
+        },
+        "B": {
+            "item": "spore:hyperbolized_liver"
+        },
+        "C": {
+            "item": "spore:reforged_biomass_a"
+        },
+        "D": {
+            "item": "spore:acidic_gland"
+        },
+        "E": {
+            "item": "spore:fins"
+        },
+        "F": {
+            "item": "spore:amalgamated_heart"
+        },
+        "G": {
+            "item": "spore:reforged_biomass_t"
+        },
+        "H": {
+            "item": "spore:ligaments"
+        },
+        "W": {
+            "item": "spore:cleaver"
+        }
+    },
+    "result": {
+        "id": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

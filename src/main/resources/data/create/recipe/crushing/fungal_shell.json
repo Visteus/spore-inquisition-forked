@@ -1,0 +1,36 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "spore:fungal_shell"
+    }
+  ],
+  "processing_time": 1000,
+  "results": [
+    {
+      "id": "spore:armor_fragment"
+    },
+    {
+      "id": "spore:armor_fragment"
+    },
+    {
+      "id": "spore:claw_fragment"
+    },
+    {
+      "chance": 0.3,
+      "id": "spore:claw"
+    },
+    {
+      "chance": 0.15,
+      "id": "spore:armor_plate"
+    },
+    {
+      "chance": 0.15,
+      "id": "spore:spike"
+    },
+    {
+      "chance": 0.1,
+      "id": "spore:biomass"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 1000,
+      "fluid": "spore:bile"
+    },
+    {
+      "item": "spore:skull_soup"
+    },
+    {
+      "item": "spore:voracious_reagent"
+    },
+    {
+      "item": "spore:acidic_gland"
+    },
+    {
+      "item": "spore:spine"
+    },
+    {
+      "item": "spore:corrosive_reagent"
+    }
+  ],
+  "results": [
+    {
+      "id": "spore:acidic_assassin"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "inqui:mimicry10"
+      }
+    }
+  },
+  "rewards": {
+    "function": "inqui:craft_mimicry10"
+  }
+}

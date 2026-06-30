@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "inqui:mimicry6"
+      }
+    }
+  },
+  "display": {
+    "title": "§4§kGrant Us Love",
+    "color": "dark_red",
+    "description": "§4Surround an Infected Mace with three terrestrial reforged biomass, two hyperbolized livers and three gastric reagents to get the mace that forces even the plentiful into famine.",
+    "icon": {
+      "id": "spore:mace"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+    "parent": "inqui:mimi_m5"
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "spore:compound_plate"
+    },
+    "X": {
+      "item": "minecraft:diamond"
+    },
+    "B": {
+      "item": "minecraft:diamond_block"
+    },
+    "D": {
+      "item": "minecraft:blue_ice"
+    },
+    "I": {
+      "item": "minecraft:budding_amethyst"
+    }
+  },
+  "pattern": [
+    "DXD",
+    "DBD",
+    "I#I"
+  ],
+  "result": {
+    "id": "minecraft:knowledge_book",
+    "count": 1
+  },
+  "show_notification": true
+}

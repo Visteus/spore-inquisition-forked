@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "inqui:mimicry1"
+      }
+    }
+  },
+  "display": {
+    "title": "§4§kThe Perfect Food",
+    "color": "dark_red",
+    "description": "§4Surround an Infected Greatsword with four terrestrial reforged biomass and four amalgamated hearths to get the strongest sword.",
+    "icon": {
+      "id": "spore:greatsword"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+    "parent": "inqui:mimi_m0"
+}

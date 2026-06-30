@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#X#",
+        "XDX",
+        "#X#"
+    ],
+    "key": {
+        "#": {
+            "item": "spore:reforged_biomass_w"
+        },
+        "X": {
+            "item": "spore:ligaments"
+        },
+        "D": {
+            "item": "spore:combat_pickaxe"
+        }
+    },
+    "result": {
+        "id": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "QWE",
+        "ASD",
+        "ZXC"
+    ],
+    "key": {
+        "S": {
+            "item": "spore:biomass"
+        },
+        "Q": {
+            "item": "minecraft:pumpkin_pie"
+        },
+        "A": {
+            "item": "minecraft:bread"
+        },
+        "E": {
+            "item": "minecraft:cooked_mutton"
+        },
+        "D": {
+            "item": "minecraft:cooked_beef"
+        },
+        "W": {
+            "item": "minecraft:cooked_cod"
+        },
+        "X": {
+            "item": "minecraft:cake"
+        },
+        "C": {
+            "item": "minecraft:cooked_salmon"
+        },
+        "Z": {
+            "item": "minecraft:rabbit_stew"
+        }
+    },
+    "result": {
+        "id": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

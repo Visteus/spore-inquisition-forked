@@ -1,0 +1,103 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:packed_ice"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "spore:ice_canister"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:packed_ice"
+        },
+        
+          {
+            "item": "minecraft:iron_nugget"
+          }
+        
+      ],
+      "results": [
+        {
+          "id": "minecraft:packed_ice"
+        }
+      ]
+    },
+
+        {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:packed_ice"
+        },
+        
+          {
+            "item": "minecraft:iron_nugget"
+          }
+        
+      ],
+      "results": [
+        {
+          "id": "minecraft:packed_ice"
+        }
+      ]
+    },
+        {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:packed_ice"
+        },
+        
+          {
+            "item": "minecraft:iron_nugget"
+          }
+        
+      ],
+      "results": [
+        {
+          "id": "minecraft:packed_ice"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:packed_ice"
+        },
+        
+          {
+            "item": "minecraft:iron_nugget"
+          }
+        
+      ],
+      "results": [
+        {
+          "id": "minecraft:packed_ice"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:packed_ice"
+        }
+      ],
+      "results": [
+        {
+          "id":"minecraft:packed_ice"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "minecraft:packed_ice"
+  }
+}

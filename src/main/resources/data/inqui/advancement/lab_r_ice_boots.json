@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "inqui:ice_boots"
+      }
+    }
+  },
+  "display": {
+    "title": "Cryo-Combat boots",
+    "color": "blue",
+    "description": "Craft the CCB with two compound plates and two ice canisters(don't equip it if you have spore armor/weapons in your inventory)",
+    "icon": {
+      "id": "minecraft:iron_boots"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+    "parent": "inqui:lab_start"
+}

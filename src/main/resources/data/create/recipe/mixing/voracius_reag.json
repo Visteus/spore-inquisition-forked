@@ -1,0 +1,28 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "spore:innards"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 100,
+      "fluid": "spore:bile",
+      "nbt": {}
+    },
+    {
+      "item": "spore:fang"
+    },
+    {
+      "item": "spore:fang"
+    },
+    {
+      "item": "spore:living_core"
+    }
+  ],
+  "results": [
+    {
+      "id": "spore:voracious_reagent"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "RDR",
+        "DTD",
+        "RDR"
+    ],
+    "key": { 
+        "D": {
+            "item": "minecraft:diamond_block"
+        },
+        "R": {
+            "item": "minecraft:netherite_ingot"
+        },
+        "T": {
+            "item": "minecraft:nether_star"
+        }
+    },
+    "result": {
+        "id": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

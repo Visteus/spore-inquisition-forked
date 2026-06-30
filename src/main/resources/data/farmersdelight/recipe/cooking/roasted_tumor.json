@@ -1,0 +1,30 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 175,
+  "experience": 1.75,
+  "ingredients": [
+  {
+      "item": "spore:tumor"
+  },
+  {
+      "item": "spore:biomass"
+  },
+  {
+      "item": "spore:biomass"
+  },
+  {
+      "item": "spore:biomass"
+  },
+  {
+      "item": "spore:biomass"
+  },
+  {
+      "item": "spore:biomass"
+  }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "count": 6,
+    "id": "spore:roasted_tumor"
+  }
+}

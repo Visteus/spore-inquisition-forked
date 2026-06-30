@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "spore:decayed_torso"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 100,
+      "fluid": "spore:bile"
+    }
+  ],
+  "results": [
+    {
+      "id": "spore:stuffed_torso"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "bread": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": ["spore:decayed_limbs"]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "inqui:foods/limb"
+    },
+    "parent": "inqui:root"
+}

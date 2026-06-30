@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " ba",
+      " cb",
+      "f  "
+    ],
+    "key": {
+      "a": { "item": "spore:corrosive_sack" },
+      "b": { "item": "spore:mutated_fiber" },
+      "c": { "item": "spore:armor_fragment" },
+      "f": { "item": "spore:mutated_fiber" }
+    },
+    "result": {
+      "id": "minecraft:tipped_arrow",
+      "components": {
+        "minecraft:potion_contents": {
+          "custom_color": -13369549,
+          "custom_effects": [
+            {
+              "id": "spore:corrosion",
+              "amplifier": 1,
+              "duration": 300,
+              "ambient": true,
+              "show_particles": true,
+              "show_icon": true
+            }
+          ]
+        }
+      },
+      "count": 8
+    }
+}

@@ -1,0 +1,18 @@
+
+{
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "spore:mound",
+          "nbt": "{age:10}"
+        }
+      }
+    }
+  },
+    "rewards": {
+        "function": "inqui:foods/damage"
+    },
+    "parent": "inqui:root"
+}

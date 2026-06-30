@@ -1,0 +1,2 @@
+item replace entity @s weapon.mainhand with spore:cleaver
+item replace entity @s weapon.offhand with spore:infected_bow[enchantments={levels:{"spore:corrosive_potency":1,"spore:gastric_spewage":1,"minecraft:power":5}}]

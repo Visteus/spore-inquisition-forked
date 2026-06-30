@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "bread": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": ["spore:meaty_icecream"]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "inqui:foods/ice"
+    },
+    "parent": "inqui:root"
+}

@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "triggered": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "title": "§4§lFINALITAS",
+    "color": "red",
+    "description": "§4§kWe fuse flesh and thought into a single truth, a single purpose, a single end.",
+    "icon": {
+      "id": "spore:outpost_watcher"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+    "parent": "inqui:a_6"
+}

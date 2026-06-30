@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "inqui:ice_chest"
+      }
+    }
+  },
+  "display": {
+    "title": "Cryo-Combat Chestplate",
+    "color": "blue",
+    "description": "Craft the CCC with five compound plates, two ice canisthers and a C.D.U.(don't equip it if you have spore armor/weapons in your inventory)",
+    "icon": {
+      "id": "minecraft:iron_chestplate"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+    "parent": "inqui:lab_r_ice_leegs"
+}

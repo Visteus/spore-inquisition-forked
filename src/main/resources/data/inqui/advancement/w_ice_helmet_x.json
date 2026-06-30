@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+        "conditions": {
+				"player": {
+					"equipment": {
+						"head": {
+							
+            "predicates": {
+                  "minecraft:custom_data": {
+                    "ccax": true
+                  }
+                }			
+            }
+					}
+				}
+      }
+    }
+  },
+  "rewards": {
+    "function": "inqui:weapons/ice_helmet_x"
+  }
+}

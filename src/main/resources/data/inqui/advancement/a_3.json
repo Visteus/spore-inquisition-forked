@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "triggered": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "title": "§cWhere We Must Reach",
+    "description": "§cWe constructed a looming tower to return whence we came.",
+    "icon": {
+      "id": "spore:organoid_membrane"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+    "parent": "inqui:a_2"
+}

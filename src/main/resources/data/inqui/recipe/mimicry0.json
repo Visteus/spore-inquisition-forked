@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "XAX",
+        "ZDZ",
+        "X#X"
+    ],
+    "key": {
+        "A": {
+            "item": "spore:reforged_biomass_t"
+        },
+        "D": {
+            "item": "spore:knife"
+        },
+        "X": {
+            "item": "spore:hardened_bind"
+        },
+        "#": {
+            "item": "spore:voracious_reagent"
+        },
+        "Z": {
+            "item": "spore:living_core"
+        }
+    },
+    "result": {
+        "id": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

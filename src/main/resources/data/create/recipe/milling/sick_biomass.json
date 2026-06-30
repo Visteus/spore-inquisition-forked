@@ -1,0 +1,26 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "spore:sicken_biomass_block"
+    }
+  ],
+  "processing_time": 300,
+  "results": [
+    {
+      "id": "spore:biomass"
+    },
+    {
+      "chance": 0.25,
+      "id": "spore:mutated_fiber"
+    },
+    {
+      "chance": 0.1,
+      "id": "spore:alveolic_sack"
+    },
+    {
+      "chance": 0.1,
+      "id": "spore:corrosive_sack"
+    }
+  ]
+}

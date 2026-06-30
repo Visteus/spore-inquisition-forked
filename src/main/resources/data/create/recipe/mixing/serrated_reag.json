@@ -1,0 +1,28 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "spore:spike"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 100,
+      "fluid": "spore:bile",
+      "nbt": {}
+    },
+    {
+      "item": "spore:corrosive_sack"
+    },
+    {
+      "item": "spore:spike"
+    },
+    {
+      "item": "spore:living_core"
+    }
+  ],
+  "results": [
+    {
+      "id": "spore:serrated_reagent"
+    }
+  ]
+}

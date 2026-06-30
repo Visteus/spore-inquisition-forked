@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "inqui:mimicry5"
+      }
+    }
+  },
+  "display": {
+    "title": "§4§kCheers for the Beginning",
+    "color": "dark_red",
+    "description": "§4Surround an Infected Scythe with four aquatic reforged biomass, two sculk catalysts and two soul lanterns to get the scythe that severs detritus and flesh, outwitting every form of annihilation.",
+    "icon": {
+      "id": "spore:scythe"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+    "parent": "inqui:mimi_m4"
+}

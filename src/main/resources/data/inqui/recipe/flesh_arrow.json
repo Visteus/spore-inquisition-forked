@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " ba",
+      " cb",
+      "f  "
+    ],
+    "key": {
+      "a": { "item": "spore:claw_fragment" },
+      "b": { "item": "spore:mutated_fiber" },
+      "c": { "item": "spore:armor_fragment" },
+      "f": { "item": "spore:mutated_fiber" }
+    },
+    "result": {
+      "id": "minecraft:tipped_arrow",
+      "components": {
+        "minecraft:potion_contents": {
+          "custom_color": 9643043,
+          "custom_effects": [
+            {
+              "id": "spore:mycelium_ef",
+              "amplifier": 2,
+              "duration": 600,
+              "ambient": true,
+              "show_particles": true,
+              "show_icon": true
+            }
+          ]
+        }
+      },
+      "count": 8
+    }
+}

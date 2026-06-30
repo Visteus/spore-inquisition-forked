@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "  a",
+      " c ",
+      "f  "
+    ],
+    "key": {
+      "a": { "item": "minecraft:amethyst_shard" },
+      "c": { "item": "minecraft:stick" },
+      "f": { "item": "spore:compound_plate" }
+    },
+    "result": {
+      "id": "minecraft:tipped_arrow",
+      "components": {
+        "minecraft:potion_contents": {
+          "custom_color": 14399743,
+          "custom_effects": [
+            {
+              "id": "spore:starvation",
+              "amplifier": 4,
+              "duration": 300,
+              "ambient": true,
+              "show_particles": true,
+              "show_icon": true
+            }
+          ]
+        }
+      },
+      "count": 8
+    }
+}

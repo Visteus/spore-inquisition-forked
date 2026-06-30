@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+        "conditions": {
+				"player": {
+					"equipment": {
+						"legs": {
+							"items": [
+								"minecraft:iron_leggings"
+							],
+            "predicates": {
+                  "minecraft:custom_data": {
+                    "cca": true
+                  }
+                }			
+            }
+					}
+				}
+      }
+    }
+  },
+  "rewards": {
+    "function": "inqui:weapons/ice_leegs"
+  }
+}

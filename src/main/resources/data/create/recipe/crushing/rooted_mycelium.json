@@ -1,0 +1,19 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "spore:rooted_mycelium"
+    }
+  ],
+  "processing_time": 25,
+  "results": [
+    {
+      "chance": 0.75,
+      "id": "spore:biomass"
+    },
+    {
+      "chance": 0.5,
+      "id": "spore:decayed_limbs"
+    }
+  ]
+}

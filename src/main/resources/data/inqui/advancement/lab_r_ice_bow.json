@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "inqui:ice_bow"
+      }
+    }
+  },
+  "display": {
+    "title": "Cryo-Combat Bow",
+    "color": "dark_blue",
+    "description": "Craft the CCS with three compound plates, two ice blocks, one packed ice and three sticks.(don't equip it if you have spore armor/weapons in your inventory)",
+    "icon": {
+      "id": "minecraft:bow"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+    "parent": "inqui:lab_r_ice_sword"
+}

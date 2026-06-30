@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "triggered": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "title": {
+      "text": "§4§kEGOS FROM THE FLESH OF BEYOND DREAMS"
+    },
+    "description": {
+      "text": "§4With pain in your heart, you shall mend the broken pieces together to create the strongest of weapons."
+    },
+    "icon": {
+      "id": "spore:hive_spawn"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "inqui:root"
+}

@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"spore:scythe"
+							],
+            "predicates": {
+                  "minecraft:custom_data": {
+                    "mimicry": true
+                  }
+                }				
+            }
+					}
+				}
+      }
+    }
+  },
+  "rewards": {
+    "function": "inqui:weapons/mimicry5"
+  }
+}

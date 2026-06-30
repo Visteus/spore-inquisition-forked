@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "inqui:ice_shield"
+      }
+    }
+  },
+  "display": {
+    "title": "Cryo-Combat Shield",
+    "color": "dark_blue",
+    "description": "Craft the CCS with six compound plates, an ice canister and two packed ice",
+    "icon": {
+      "id": "minecraft:shield"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+    "parent": "inqui:lab_r_ice_bow"
+}

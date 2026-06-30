@@ -1,0 +1,19 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "spore:mycelium_block"
+    }
+  ],
+  "processing_time": 500,
+  "results": [
+    {
+      "chance": 0.25,
+      "id": "spore:armor_fragment"
+    },
+    {
+      "chance": 0.1,
+      "id": "spore:claw_fragment"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+execute as @e[type= spore:mound, limit=15, sort=random,nbt=!{age:10}] at @s if entity @e[type=spore:proto,scores={F_F=1}, distance= ..210] run tp @s ~ ~-25 ~
+execute as @e[type= spore:mound, limit=15, sort=random,nbt=!{age:10}] at @s if entity @e[type=spore:proto,scores={F_F=1}, distance= ..210] run tp @s ~ ~-50 ~

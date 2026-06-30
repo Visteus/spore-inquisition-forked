@@ -1,0 +1,28 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 175,
+      "fluid": "spore:bile"
+    },
+    {
+      "item": "spore:living_core"
+    },
+    {
+      "item": "spore:claw"
+    },
+    {
+      "item": "spore:claw"
+    },
+    {
+      "item": "spore:mutated_fiber"
+    }
+  ],
+  "results": [
+    {
+      "id": "spore:saber"
+    }
+  ]
+}

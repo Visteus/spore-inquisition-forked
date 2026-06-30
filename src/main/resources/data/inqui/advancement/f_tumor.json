@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "bread": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": ["spore:roasted_tumor"]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "inqui:foods/tumor"
+    },
+    "parent": "inqui:root"
+}

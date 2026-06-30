@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+        "conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+              "predicates": {
+                  "minecraft:custom_data": {
+                    "mimicry": true
+                  }
+                }				
+            }
+					}
+				}
+      }
+    }
+  },
+  "rewards": {
+    "function": "inqui:weapons/mimicry"
+  }
+}

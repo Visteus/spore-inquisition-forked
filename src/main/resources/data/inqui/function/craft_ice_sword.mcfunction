@@ -1,0 +1,4 @@
+advancement revoke @s only inqui:c_ice_sword
+
+clear @s minecraft:knowledge_book 1
+give @s minecraft:iron_sword[custom_name='[{"color":"#006FFF","text":"C"},{"color":"#20ACFF","text":"C"},{"color":"#33CFFF","text":"S"}]',attribute_modifiers={modifiers:[{type:"generic.attack_damage",amount:7,slot:mainhand,id:177346641399,operation:add_value}, {type:"generic.attack_speed",amount:-3,slot:mainhand,id:177346641399,operation:add_value}, {type:"generic.attack_knockback",amount:1.5,slot:mainhand,id:177346641399,operation:add_value}, {type:"player.entity_interaction_range",amount:2,slot:mainhand,id:177346641399,operation:add_value}]},enchantments={levels:{"inqui:soul_freeze":1}}] 1

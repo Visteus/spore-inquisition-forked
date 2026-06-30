@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 500,
+      "fluid": "spore:bile"
+    },
+    {
+      "item": "spore:living_helmet"
+    },
+    {
+      "item": "spore:plated_helmet"
+    }
+  ],
+  "results": [
+    {
+      "id": "spore:inf_helmet"
+    }
+  ]
+}

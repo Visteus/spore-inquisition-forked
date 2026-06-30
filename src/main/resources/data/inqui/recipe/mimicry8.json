@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "YYY",
+        "XDX",
+        "ZZZ"
+    ],
+    "key": {
+        "Z": {
+            "item": "spore:reforged_biomass_a"
+        },
+        "X": {
+            "item": "spore:shield"
+        },
+        "Y": {
+            "item": "spore:reforged_biomass_t"
+        },
+        "D": {
+            "item": "spore:brain_remnants"
+        }
+    },
+    "result": {
+        "id": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

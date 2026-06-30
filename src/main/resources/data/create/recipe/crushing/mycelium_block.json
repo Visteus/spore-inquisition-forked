@@ -1,0 +1,19 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "spore:mycelium_block"
+    }
+  ],
+  "processing_time": 400,
+  "results": [
+    {
+      "chance": 0.5,
+      "id": "spore:armor_fragment"
+    },
+    {
+      "chance": 0.25,
+      "id": "spore:claw_fragment"
+    }
+  ]
+}

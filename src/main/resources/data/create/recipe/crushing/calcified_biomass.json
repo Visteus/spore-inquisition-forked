@@ -1,0 +1,38 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "spore:calcified_biomass_block"
+    }
+  ],
+  "processing_time": 200,
+  "results": [
+    {
+      "id": "spore:biomass"
+    },
+    {
+      "chance": 0.25,
+      "id": "spore:biomass"
+    },
+    {
+      "chance": 0.25,
+      "id": "spore:mutated_fiber"
+    },
+    {
+      "chance": 0.75,
+      "id": "spore:armor_fragment"
+    },
+    {
+      "chance": 0.6,
+      "id": "spore:claw_fragment"
+    },
+    {
+      "chance": 0.5,
+      "id": "spore:spine_fragment"
+    },
+    {
+      "chance": 0.10,
+      "id": "spore:calcified_tumor"
+    }
+  ]
+}

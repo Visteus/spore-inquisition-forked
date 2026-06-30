@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "inqui:mimicry11"
+      }
+    }
+  },
+  "display": {
+    "title": "§4§kMIMICRY, the yearn to be human",
+    "color": "dark_red",
+    "description": "§4Surround an infected Cleaver with every single calamity drop to get a weapon enpowered by the faint sorrow and regrets of those who are now forever resting, it is time to guide those poor souls back to the cycle of life.",
+    "icon": {
+      "id": "spore:cleaver"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+    "parent": "inqui:mimi_m10"
+}

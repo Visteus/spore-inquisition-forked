@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "bread": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": ["spore:fleshy_ribs"]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "inqui:foods/ribs"
+    },
+    "parent": "inqui:root"
+}

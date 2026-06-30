@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "triggered": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "title": {
+      "text": "Anti-spore equipment"
+    },
+    "description": {
+      "text": "From ice swords to powerfull nukes, in this page you will be able to find the recipes for usefull items to aid you in your fight against RedNight"
+    },
+    "icon": {
+      "id": "spore:compound_plate"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "inqui:root"
+}

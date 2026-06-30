@@ -1,0 +1,28 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "create:raw_meat"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 50,
+      "fluid": "spore:bile",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "id": "spore:biomass"
+    },     
+    {
+      "id": "spore:biomass"
+    },
+    {
+      "id": "spore:biomass"
+    },
+    {
+      "id": "spore:biomass"
+    }
+  ]
+}

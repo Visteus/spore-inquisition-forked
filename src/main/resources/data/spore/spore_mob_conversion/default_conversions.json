@@ -1,0 +1,7 @@
+{
+"#minecraft:skeletons": "spore:scent",
+"#minecraft:zombies": "spore:claw",
+"#minecraft:arthropod": "spore:licker",
+"minecraft:enderman": "spore:licker"
+
+}

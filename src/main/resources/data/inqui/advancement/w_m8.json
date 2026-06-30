@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+        "conditions": {
+				"player": {
+					"equipment": {
+						"offhand": {
+							"items": [
+								"spore:shield"
+							],
+              "predicates": {
+                  "minecraft:custom_data": {
+                    "mimicry": true
+                  }
+                }				
+            }
+					}
+				}
+      }
+    }
+  },
+  "rewards": {
+    "function": "inqui:weapons/mimicry8"
+  }
+}

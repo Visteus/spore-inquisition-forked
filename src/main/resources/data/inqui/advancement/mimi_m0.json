@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "inqui:mimicry0"
+      }
+    }
+  },
+  "display": {
+    "title": "§4§kA Request",
+    "color": "dark_red",
+    "description": "§4Surround an infected knife with four hardened binds, two living cores, a voracious reagent and a piece of terrestrial reforged biomass to create the knife whose sole purpose is to harvest the flesh of the living.",
+    "icon": {
+      "id": "spore:knife"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+    "parent": "inqui:mimi_start"
+}

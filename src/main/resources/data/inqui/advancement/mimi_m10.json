@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "inqui:mimicry10"
+      }
+    }
+  },
+  "display": {
+    "title": "§4§kThe Struggle at the Climax",
+    "color": "dark_red",
+    "description": "§4Surround an infected spear with two netherite ingots, two amalgamated hearts and four blaze rods to get the spear whose sole presence makes the nether seem cold.",
+    "icon": {
+      "id": "spore:infected_spear"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+    "parent": "inqui:mimi_m9"
+}

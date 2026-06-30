@@ -1,0 +1,19 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "spore:rooted_mycelium"
+    }
+  ],
+  "processing_time": 100,
+  "results": [
+    {
+      "chance": 0.5,
+      "id": "spore:biomass"
+    },
+    {
+      "chance": 0.25,
+      "id": "spore:decayed_limbs"
+    }
+  ]
+}

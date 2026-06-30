@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "bread": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": ["spore:roasted_heart_kebab"]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "inqui:foods/kebab"
+    },
+    "parent": "inqui:root"
+}

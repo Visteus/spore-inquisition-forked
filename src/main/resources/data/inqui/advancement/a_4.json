@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "triggered": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "title": "§4Helix of the End",
+    "description": "§4The tower is touched by the sky, and nothing will remain on the ground.",
+    "icon": {
+      "id": "spore:rapier"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+    "parent": "inqui:a_3"
+}

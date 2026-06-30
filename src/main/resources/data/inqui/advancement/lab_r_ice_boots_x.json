@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "inqui:ice_boots_x"
+      }
+    }
+  },
+  "display": {
+    "title": "SubZero-Combat boots",
+    "color": "blue",
+    "description": "Craft the SCB with two diamonds, two budding amethyst, and a CDU.(don't equip it if you have spore armor/weapons in your inventory)",
+    "icon": {
+      "id": "minecraft:diamond_boots"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+    "parent": "inqui:lab_start"
+}

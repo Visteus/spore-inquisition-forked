@@ -1,0 +1,28 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "type": "neoforge:single",
+      "amount": 300,
+      "fluid": "spore:bile"
+    },
+    {
+      "item": "spore:plated_muscle"
+    },
+    {
+      "item": "spore:plated_muscle"
+    },
+    {
+      "item": "spore:plated_muscle"
+    },
+    {
+      "item": "spore:tendons"
+    }
+  ],
+  "results": [
+    {
+      "id": "spore:living_boots"
+    }
+  ]
+}

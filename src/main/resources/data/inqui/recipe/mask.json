@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "DZD",
+        "Z Z",
+        "X#X"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:iron_ingot"
+        },
+        "D": {
+            "item": "minecraft:black_wool"
+        },
+        "X": {
+            "item": "minecraft:string"
+        },
+        "Z": {
+            "item": "minecraft:coal"
+        }
+    },
+    "result": {
+        "id": "spore:gas_mask",
+        "count": 1
+    }
+}

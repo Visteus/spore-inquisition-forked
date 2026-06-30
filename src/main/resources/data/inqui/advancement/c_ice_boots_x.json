@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "inqui:ice_boots_x"
+      }
+    }
+  },
+  "rewards": {
+    "function": "inqui:craft_ice_boots_x"
+  }
+}

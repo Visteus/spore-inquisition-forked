@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "inqui:m_helmet"
+      }
+    }
+  },
+  "display": {
+    "title": "§4§kDesiderium",
+    "color": "dark_red",
+    "description": "§4surround a living helmet MK2 with brain remnants in a crafting table to get this artifact.",
+    "icon": {
+      "id": "spore:inf_up_helmet"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+    "parent": "inqui:mimi_c_chest"
+}

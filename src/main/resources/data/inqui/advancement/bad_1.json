@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "#inqui:sleep"
+        }
+      }
+    }
+  },
+  "rewards": {"function": "inqui:sleep/1"}
+}

@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "inqui:ice_leegs_x"
+      }
+    }
+  },
+  "display": {
+    "title": "SubZero-Combat leggings",
+    "color": "blue",
+    "description": "Craft the SCL with four diamonds, two budding amethyst and an incubator.(don't equip it if you have spore armor/weapons in your inventory)",
+    "icon": {
+      "id": "minecraft:diamond_leggings"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+    "parent": "inqui:lab_r_ice_boots_x"
+}
