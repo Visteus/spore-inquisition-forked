@@ -1,3 +1,2 @@
-advancement revoke @s only inqui:c_gift1
 clear @s minecraft:knowledge_book 1
 give @s minecraft:player_head[minecraft:custom_name='{"text":"Magnum Ientaculum","color":"red","italic":false}',minecraft:lore=['{"text":"He craves for the nutrients you are now holding within you.","color":"red","italic":true}'],profile={id:[I;2080793942,-524468218,-1541115779,1949756395],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA1NWE2Yjg1OTFjNDZjMTljODkwMDIwYjNkMmFhZWY3NjQ3OTUxM2Y4NjgwMmFlZWRjMDY0YzVkYzI3MWJlIn19fQ=="}]}] 1

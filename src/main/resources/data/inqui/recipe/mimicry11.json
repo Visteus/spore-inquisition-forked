@@ -35,7 +35,8 @@
         }
     },
     "result": {
-        "id": "minecraft:knowledge_book",
-        "count": 1
+      "id": "spore:cleaver",
+      "count": 1,
+      "components": {"minecraft:custom_name":[{"color":"#ff0000","text":"MIMICRY"}],"minecraft:lore":[{"bold":false,"italic":true,"color":"#b30000","text":"The yearning to imitate the human form is sloppily reflected on the Weapon, as if it were a reminder that it should remain a mere desire."}],"minecraft:custom_data":"{mimicry:1b}","minecraft:enchantments":{"levels":{"spore:symbiotic_reconstitution":1,"minecraft:sharpness":10,"minecraft:unbreaking":5}}}
     }
 }

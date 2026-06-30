@@ -1,4 +1,3 @@
-advancement revoke @s only inqui:c_m_chest
 
 clear @s minecraft:knowledge_book 1
 give @p spore:inf_up_chest[custom_name='[{"text":"Alae Angelicae","color":"#ff0000","bold":true}]',enchantments={levels:{"spore:symbiotic_reconstitution":2,"minecraft:unbreaking":5}},lore=['{"text":"Bearing the suffering of hundreds of souls whose wings were broken, you shall fly beyond heaven and hell in search of ultimate justice.","color":"dark_red","bold":false}'],attribute_modifiers={modifiers:[{type:"generic.armor",amount:19.5,slot:chest,id:1773346641392,operation:add_value}, {type:"generic.armor_toughness",amount:4.5,slot:chest,id:1773346641392,operation:add_value}, {type:"generic.knockback_resistance",amount:0.15,slot:chest,id:1773346641392,operation:add_value}, {type:"generic.max_health",amount:5,slot:chest,id:1773346641392,operation:add_value}, {type:"generic.attack_damage",amount:6,slot:chest,id:1773346641392,operation:add_value}]}]

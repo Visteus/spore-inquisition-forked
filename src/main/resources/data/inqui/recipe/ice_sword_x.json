@@ -24,8 +24,9 @@
     "I#I"
   ],
   "result": {
-    "id": "minecraft:knowledge_book",
-    "count": 1
+    "id": "minecraft:diamond_sword",
+    "count": 1,
+    "components": {"minecraft:custom_name":[{"color":"#2200ff","text":"S"},{"color":"#6f00ff","text":"Z"},{"color":"#a200ff","text":"S"}],"minecraft:attribute_modifiers":{"modifiers":[{"type":"generic.attack_damage","amount":8,"slot":"mainhand","id":"sporeinquisition:ice_sword_x_0","operation":"add_value"},{"type":"generic.attack_speed","amount":-2.8,"slot":"mainhand","id":"sporeinquisition:ice_sword_x_1","operation":"add_value"},{"type":"generic.attack_knockback","amount":2,"slot":"mainhand","id":"sporeinquisition:ice_sword_x_2","operation":"add_value"},{"type":"player.entity_interaction_range","amount":3,"slot":"mainhand","id":"sporeinquisition:ice_sword_x_3","operation":"add_value"}]},"minecraft:enchantments":{"levels":{"inqui:soul_freeze":2}}}
   },
   "show_notification": true
 }

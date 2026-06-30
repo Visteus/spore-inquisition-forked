@@ -21,6 +21,31 @@ scoreboard objectives add rage dummy
 scoreboard objectives add dream dummy
 scoreboard objectives add webon dummy
 scoreboard objectives add no_ordeal dummy
+scoreboard objectives add raids dummy
+scoreboard objectives add judment dummy "weak"
+
+#spore-inquisition config bridge objectives (seeded by the Java mod's ScoreboardSync; the defaults
+#below are a fallback so the datapack still behaves if a value was never written).
+scoreboard objectives add corruption_rate dummy
+scoreboard objectives add auto_finalitas dummy
+scoreboard objectives add fin_lock dummy
+scoreboard objectives add offer1 dummy
+scoreboard objectives add offer2 dummy
+scoreboard objectives add offer3 dummy
+scoreboard objectives add ord_thr1 dummy
+scoreboard objectives add ord_thr2 dummy
+scoreboard objectives add ord_thr3 dummy
+scoreboard objectives add ord_thr4 dummy
+execute unless score !finale corruption_rate = !finale corruption_rate run scoreboard players set !finale corruption_rate 1
+execute unless score !finale auto_finalitas = !finale auto_finalitas run scoreboard players set !finale auto_finalitas 1
+execute unless score !finale fin_lock = !finale fin_lock run scoreboard players set !finale fin_lock 0
+execute unless score !finale offer1 = !finale offer1 run scoreboard players set !finale offer1 25
+execute unless score !finale offer2 = !finale offer2 run scoreboard players set !finale offer2 50
+execute unless score !finale offer3 = !finale offer3 run scoreboard players set !finale offer3 100
+execute unless score !finale ord_thr1 = !finale ord_thr1 run scoreboard players set !finale ord_thr1 70
+execute unless score !finale ord_thr2 = !finale ord_thr2 run scoreboard players set !finale ord_thr2 140
+execute unless score !finale ord_thr3 = !finale ord_thr3 run scoreboard players set !finale ord_thr3 210
+execute unless score !finale ord_thr4 = !finale ord_thr4 run scoreboard players set !finale ord_thr4 280
 
 #V2
 scoreboard objectives add inf_pla_boss dummy "final raid thing"

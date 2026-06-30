@@ -14,7 +14,8 @@
         }
     },
     "result": {
-        "id": "minecraft:knowledge_book",
-        "count": 1
+      "id": "spore:inf_up_chest",
+      "count": 1,
+      "components": {"minecraft:custom_name":[{"text":"Alae Angelicae","color":"#ff0000","bold":true}],"minecraft:enchantments":{"levels":{"spore:symbiotic_reconstitution":2,"minecraft:unbreaking":5}},"minecraft:lore":[{"text":"Bearing the suffering of hundreds of souls whose wings were broken, you shall fly beyond heaven and hell in search of ultimate justice.","color":"dark_red","bold":false}],"minecraft:attribute_modifiers":{"modifiers":[{"type":"generic.armor","amount":19.5,"slot":"chest","id":"sporeinquisition:m_chest_0","operation":"add_value"},{"type":"generic.armor_toughness","amount":4.5,"slot":"chest","id":"sporeinquisition:m_chest_1","operation":"add_value"},{"type":"generic.knockback_resistance","amount":0.15,"slot":"chest","id":"sporeinquisition:m_chest_2","operation":"add_value"},{"type":"generic.max_health","amount":5,"slot":"chest","id":"sporeinquisition:m_chest_3","operation":"add_value"},{"type":"generic.attack_damage","amount":6,"slot":"chest","id":"sporeinquisition:m_chest_4","operation":"add_value"}]}}
     }
 }

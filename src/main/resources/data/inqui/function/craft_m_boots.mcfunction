@@ -1,4 +1,3 @@
-advancement revoke @s only inqui:c_m_boots
 
 clear @s minecraft:knowledge_book 1
 give @p spore:inf_up_boots[custom_name='[{"text":"Litus Doloris","color":"#ff0000","bold":true}]',enchantments={levels:{"spore:symbiotic_reconstitution":2,"minecraft:unbreaking":5}},lore=['{"text":"With grief in your heart, keep swimming into the sea of sorrows, for the possibility of finding a shore where you can finally rest still remains.","color":"dark_red","bold":false}'],attribute_modifiers={modifiers:[{type:"generic.armor",amount:7.5,slot:feet,id:1773346641391,operation:add_value}, {type:"generic.armor_toughness",amount:4.5,slot:feet,id:1773346641391,operation:add_value}, {type:"generic.knockback_resistance",amount:0.15,slot:feet,id:1773346641391,operation:add_value}, {type:"neoforge:swim_speed",amount:1,slot:feet,id:1773346641391,operation:add_value}, {type:"generic.max_health",amount:5,slot:feet,id:1773346641391,operation:add_value}]}]

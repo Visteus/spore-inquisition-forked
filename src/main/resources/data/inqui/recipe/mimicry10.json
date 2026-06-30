@@ -20,7 +20,8 @@
         }
     },
     "result": {
-        "id": "minecraft:knowledge_book",
-        "count": 1
+      "id": "spore:infected_spear",
+      "count": 1,
+      "components": {"minecraft:custom_name":[{"color":"#ff0000","text":"The Struggle at the Climax"}],"minecraft:lore":[{"bold":false,"italic":true,"color":"#b30000","text":"Throwing away our old bodies, we all become one, infinitely continuing the red march."}],"minecraft:custom_data":"{mimicry:1b}","minecraft:enchantments":{"levels":{"spore:symbiotic_reconstitution":1,"minecraft:fire_aspect":10,"minecraft:flame":5,"minecraft:sharpness":10,"minecraft:loyalty":1,"minecraft:unbreaking":5}}}
     }
 }

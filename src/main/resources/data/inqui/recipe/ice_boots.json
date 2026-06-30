@@ -15,8 +15,9 @@
     "I I"
   ],
   "result": {
-    "id": "minecraft:knowledge_book",
-    "count": 1
+    "id": "minecraft:iron_boots",
+    "count": 1,
+    "components": {"minecraft:custom_name":[{"color":"aqua","text":"CCB"}],"minecraft:trim":{"material":"minecraft:diamond","pattern":"minecraft:ward"},"minecraft:custom_data":"{cca:1b}","minecraft:enchantments":{"levels":{"minecraft:protection":3,"minecraft:unbreaking":3}}}
   },
   "show_notification": true
 }

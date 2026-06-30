@@ -1,0 +1,43 @@
+package com.minigato668.sporeinquisition;
+
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.fml.ModContainer;
+import net.neoforged.fml.common.Mod;
+import net.neoforged.fml.config.ModConfig;
+import net.neoforged.fml.event.config.ModConfigEvent;
+import net.neoforged.neoforge.common.NeoForge;
+
+/**
+ * Spore Inquisition's thin Java layer.
+ *
+ * <p>The mod's gameplay still lives in the datapack (mcfunctions + scoreboards). This class only
+ * owns a per-world SERVER config ({@link SIConfig}) and bridges its values into the {@code !finale}
+ * scoreboards via {@link ScoreboardSync}.
+ */
+@Mod(SporeInquisition.MODID)
+public class SporeInquisition {
+
+    public static final String MODID = "sporeinquisition";
+
+    public SporeInquisition(IEventBus modBus, ModContainer modContainer) {
+        // Per-world SERVER config with our own filename, kept separate from the spore-*.toml files.
+        modContainer.registerConfig(ModConfig.Type.SERVER, SIConfig.SPEC, "spore-inquisition-server.toml");
+
+        // Game-bus events (ServerStartingEvent / ServerStoppedEvent) — where we can reach the scoreboard.
+        NeoForge.EVENT_BUS.register(ScoreboardSync.class);
+
+        // Mod-bus config events. These carry no server reference, so we only use Reloading as a
+        // trigger and re-apply on the server thread if a world is running.
+        modBus.addListener(this::onConfigReloading);
+    }
+
+    private void onConfigReloading(ModConfigEvent.Reloading event) {
+        if (event.getConfig().getSpec() != SIConfig.SPEC) {
+            return;
+        }
+        var server = ScoreboardSync.current;
+        if (server != null) {
+            server.execute(() -> ScoreboardSync.apply(server));
+        }
+    }
+}

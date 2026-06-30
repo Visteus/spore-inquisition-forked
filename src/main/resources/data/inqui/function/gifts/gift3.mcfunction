@@ -1,3 +1,2 @@
-advancement revoke @s only inqui:c_gift3
 clear @s minecraft:knowledge_book 1
 give @s minecraft:player_head[minecraft:custom_name='{"text":"Desertum ultimum","color":"dark_red","underlined":true,"bold":true,"italic":false}',minecraft:lore=['{"text":"He is tired of this world, its horrible indifference, its ruthless coldness. Please, let him put an end to it, and let him rebuild it into an eternal paradise...","color":"dark_red","italic":true}'],profile={id:[I;2080793942,-524468218,-1541115779,1949756395],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGY4N2QwNWYwZDU5M2FkMTUzYmJkZmVlOWQ2ZjdhNDZiY2RmZjQwMWYzNTFkNDRiZDVkNDM0ZDA4OTE3MTM2In19fQ=="}]}] 1

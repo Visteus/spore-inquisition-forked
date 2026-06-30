@@ -18,8 +18,9 @@
     "IBI"
   ],
   "result": {
-    "id": "minecraft:knowledge_book",
-    "count": 1
+    "id": "minecraft:diamond_boots",
+    "count": 1,
+    "components": {"minecraft:custom_name":[{"color":"dark_purple","text":"SCB"}],"minecraft:trim":{"material":"minecraft:amethyst","pattern":"minecraft:silence"},"minecraft:custom_data":"{ccax:1b}","minecraft:enchantments":{"levels":{"minecraft:protection":3,"minecraft:unbreaking":3,"minecraft:frost_walker":3}}}
   },
   "show_notification": true
 }

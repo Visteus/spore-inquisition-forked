@@ -1,3 +1,2 @@
-advancement revoke @s only inqui:c_ice_bomb
 clear @s minecraft:knowledge_book 1
 give @s minecraft:player_head[minecraft:custom_name='{"text":"Ice bomb","color":"dark_blue","underlined":true,"bold":true,"italic":false}',minecraft:lore=['{"text":"Drop this item and it will instantly freeze all infected blocks and mobs in a 50x50 area","color":"blue","italic":false}'],profile={id:[I;2080793942,-524468218,-1541115779,1949756395],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMxNjVlMjU0ZGU3ODYzNDU5MzQzNTQzZjkzMzQ4MWYwZGNmOGQ0NzMwYTIzNDMzYjlhN2ZmMGQzZmY3OWM1YSJ9fX0="}]}] 1

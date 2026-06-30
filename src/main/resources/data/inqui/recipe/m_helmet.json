@@ -14,7 +14,8 @@
         }
     },
     "result": {
-        "id": "minecraft:knowledge_book",
-        "count": 1
+      "id": "spore:inf_up_helmet",
+      "count": 1,
+      "components": {"minecraft:custom_name":[{"text":"Desiderium","color":"#ff0000","bold":true}],"minecraft:enchantments":{"levels":{"spore:symbiotic_reconstitution":2,"minecraft:unbreaking":5}},"minecraft:lore":[{"text":"Carrying the lingering desires of the departed, you shall keep moving forward, fulfilling the wishes of those who can no longer seek salvation.","color":"dark_red","bold":false}],"minecraft:attribute_modifiers":{"modifiers":[{"type":"generic.armor","amount":6,"slot":"head","id":"sporeinquisition:m_helmet_0","operation":"add_value"},{"type":"generic.armor_toughness","amount":4.5,"slot":"head","id":"sporeinquisition:m_helmet_1","operation":"add_value"},{"type":"generic.knockback_resistance","amount":0.15,"slot":"head","id":"sporeinquisition:m_helmet_2","operation":"add_value"},{"type":"generic.max_health","amount":5,"slot":"head","id":"sporeinquisition:m_helmet_3","operation":"add_value"},{"type":"player.entity_interaction_range","amount":5,"slot":"head","id":"sporeinquisition:m_helmet_4","operation":"add_value"}]}}
     }
 }

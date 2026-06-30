@@ -1,3 +1,2 @@
-advancement revoke @s only inqui:c_nuke
 clear @s minecraft:knowledge_book 1
 give @s minecraft:player_head[minecraft:custom_name='{"text":"SOLAR PUNCH","color":"green","underlined":true,"bold":true,"italic":false}',minecraft:lore=['{"text":"Your best friend! Drop this item and wait a minute to create a big nuclear explosion","color":"gray","italic":false}'],profile={id:[I;2080793942,-524468218,-1541115779,1949756395],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2YwYTI5ZDk0YTdjYTUxODcwYWQ5ZTA3YTJkZTFmZmIwNjYyZmQ4ZDhjOTk1N2MwNGI0ZmFiYWU1NjNjMGM0OCJ9fX0="}]}] 1

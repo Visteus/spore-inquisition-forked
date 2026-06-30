@@ -17,7 +17,8 @@
         }
     },
     "result": {
-        "id": "minecraft:knowledge_book",
-        "count": 1
+      "id": "spore:greatsword",
+      "count": 1,
+      "components": {"minecraft:custom_name":[{"color":"#ff0000","text":"The Perfect Food"}],"minecraft:lore":[{"bold":false,"italic":true,"color":"#b30000","text":"We ate incessantly to live. The inevitable diminution, the waste..."}],"minecraft:custom_data":"{mimicry:1b}","minecraft:enchantments":{"levels":{"spore:corrosive_potency":2,"spore:gastric_spewage":2,"spore:symbiotic_reconstitution":2,"spore:voracious_maw":2,"minecraft:sharpness":20,"minecraft:unbreaking":5}}}
     }
 }

@@ -23,7 +23,8 @@
         }
     },
     "result": {
-        "id": "minecraft:knowledge_book",
-        "count": 1
+      "id": "spore:armads",
+      "count": 1,
+      "components": {"minecraft:custom_name":[{"color":"#ff0000","text":"The Eternal Meal"}],"minecraft:lore":[{"bold":false,"italic":true,"color":"#b30000","text":"They fought amongst themselves to eat the others."}],"minecraft:custom_data":"{mimicry:1b}","minecraft:enchantments":{"levels":{"minecraft:efficiency":10,"spore:symbiotic_reconstitution":5,"spore:voracious_maw":5,"minecraft:sharpness":10,"minecraft:unbreaking":5}}}
     }
 }

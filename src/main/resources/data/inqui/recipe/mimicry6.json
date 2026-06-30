@@ -20,7 +20,8 @@
         }
     },
     "result": {
-        "id": "minecraft:knowledge_book",
-        "count": 1
+      "id": "spore:mace",
+      "count": 1,
+      "components": {"minecraft:custom_name":[{"color":"#ff0000","text":"Grant Us Love"}],"minecraft:lore":[{"bold":false,"italic":true,"color":"#b30000","text":"We could only hear the weakest and faintest of their acts. We sought for love and compassion from them."}],"minecraft:custom_data":"{mimicry:1b}","minecraft:enchantments":{"levels":{"spore:symbiotic_reconstitution":1,"spore:voracious_maw":1,"spore:gastric_spewage":5,"minecraft:sharpness":10,"minecraft:unbreaking":5}}}
     }
 }

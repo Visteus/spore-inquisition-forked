@@ -6,13 +6,13 @@ execute as @e[tag=ordeal_runner,limit=1] at @p run summon spore:vigil ~ ~-10 ~
 execute as @e[tag=ordeal_runner,limit=1] at @p run summon spore:biobloob ~ ~-10 ~ {scale:1.0}
 execute as @e[tag=ordeal_runner,limit=1] at @p run summon spore:biobloob ~ ~-10 ~ {scale:1.0}
 execute as @e[tag=ordeal_runner,limit=1] at @p run summon spore:vigil ~ ~-10 ~
-execute as @e[tag=ordeal_runner,limit=1] at @p if score !finale proto matches 70.. run summon spore:biobloob ~ ~-10 ~ {scale:1.0}
-execute as @e[tag=ordeal_runner,limit=1] at @p if score !finale proto matches 70.. run summon spore:biobloob ~ ~-10 ~ {scale:1.0}
-execute as @e[tag=ordeal_runner,limit=1] at @p if score !finale proto matches 140.. run summon spore:vigil ~ ~-10 ~
-execute as @e[tag=ordeal_runner,limit=1] at @p if score !finale proto matches 140.. run summon spore:vigil ~ ~-10 ~
-execute as @e[tag=ordeal_runner,limit=1] at @p if score !finale proto matches 210.. run summon spore:vigil ~ ~-10 ~
-execute as @e[tag=ordeal_runner,limit=1] at @p if score !finale proto matches 210.. run summon spore:reconstructor ~ ~-10 ~
-execute as @e[tag=ordeal_runner,limit=1] at @p if score !finale proto matches 280.. run summon spore:arena_tendril ~ ~-10 ~
+execute as @e[tag=ordeal_runner,limit=1] at @p if score !finale proto >= !finale ord_thr1 run summon spore:biobloob ~ ~-10 ~ {scale:1.0}
+execute as @e[tag=ordeal_runner,limit=1] at @p if score !finale proto >= !finale ord_thr1 run summon spore:biobloob ~ ~-10 ~ {scale:1.0}
+execute as @e[tag=ordeal_runner,limit=1] at @p if score !finale proto >= !finale ord_thr2 run summon spore:vigil ~ ~-10 ~
+execute as @e[tag=ordeal_runner,limit=1] at @p if score !finale proto >= !finale ord_thr2 run summon spore:vigil ~ ~-10 ~
+execute as @e[tag=ordeal_runner,limit=1] at @p if score !finale proto >= !finale ord_thr3 run summon spore:vigil ~ ~-10 ~
+execute as @e[tag=ordeal_runner,limit=1] at @p if score !finale proto >= !finale ord_thr3 run summon spore:reconstructor ~ ~-10 ~
+execute as @e[tag=ordeal_runner,limit=1] at @p if score !finale proto >= !finale ord_thr4 run summon spore:arena_tendril ~ ~-10 ~
 execute as @e[tag=ordeal_runner,limit=1] at @p run effect give @e[type=spore:biobloob, distance=..15] minecraft:slowness 10 1 true
 execute as @e[tag=ordeal_runner,limit=1] at @p run effect give @e[type=spore:biobloob, distance=..15] minecraft:weakness 10 0 true
 execute as @e[tag=ordeal_runner,limit=1] at @p run spreadplayers ~ ~ 25 100 false @e[type=#inqui:organoids, distance=..15]

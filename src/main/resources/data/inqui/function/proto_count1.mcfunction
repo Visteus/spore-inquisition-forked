@@ -7,9 +7,13 @@ execute run scoreboard objectives add finalitas dummy "ceseit"
 execute if score !finale finalitas matches -1 run scoreboard objectives remove proto
 #execute unless entity @e[ type= spore:proto ] run scoreboard players remove !finale proto 2
 execute if score !finale proto matches ..-1200 run scoreboard players set !finale proto 0
-execute as @e[type=spore:proto] run scoreboard players add !finale proto 1
-execute as @e[type=spore:mound,nbt={age:10}] run scoreboard players add !finale proto 1
-execute if score !finale proto matches 400.. run scoreboard players add !finale the_end 1
+#corruption gain per proto/mound is the config-driven rate (corruption_rate, default 1) instead of a hardcoded 1
+execute as @e[type=spore:proto] run scoreboard players operation !finale proto += !finale corruption_rate
+execute as @e[type=spore:mound,nbt={age:10}] run scoreboard players operation !finale proto += !finale corruption_rate
+#when automatic finalitas is OFF, natural corruption is capped at 99% (396 of 400); only an offering can push past it
+execute if score !finale auto_finalitas matches 0 if score !finale proto matches 397.. run scoreboard players set !finale proto 396
+#the automatic 100% trigger only fires when auto_finalitas is enabled
+execute if score !finale proto matches 400.. unless score !finale auto_finalitas matches 0 run scoreboard players add !finale the_end 1
 execute if score !finale the_end matches 1 run title @a title {"text":"The Final Bell Tolls","color":"#c90000","bold":false}
 execute if score !finale the_end matches 1 run playsound minecraft:block.bell.use ambient @a ~ ~ ~ 1 0.75 1
 execute if score !finale the_end matches 1 run advancement grant @a only inqui:a_6

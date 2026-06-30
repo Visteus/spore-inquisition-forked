@@ -1,4 +1,3 @@
-advancement revoke @s only inqui:c_ice_sword_x
 
 clear @s minecraft:knowledge_book 1
 give @s minecraft:diamond_sword[custom_name='[{"color":"#2200ff","text":"S"},{"color":"#6f00ff","text":"Z"},{"color":"#a200ff","text":"S"}]',attribute_modifiers={modifiers:[{type:"generic.attack_damage",amount:8,slot:mainhand,id:177346641399,operation:add_value}, {type:"generic.attack_speed",amount:-2.8,slot:mainhand,id:177346641399,operation:add_value}, {type:"generic.attack_knockback",amount:2,slot:mainhand,id:177346641399,operation:add_value}, {type:"player.entity_interaction_range",amount:3,slot:mainhand,id:177346641399,operation:add_value}]},enchantments={levels:{"inqui:soul_freeze":2}}] 1

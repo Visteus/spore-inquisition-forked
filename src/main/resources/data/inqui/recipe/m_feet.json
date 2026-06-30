@@ -14,7 +14,8 @@
         }
     },
     "result": {
-        "id": "minecraft:knowledge_book",
-        "count": 1
+      "id": "spore:inf_up_boots",
+      "count": 1,
+      "components": {"minecraft:custom_name":[{"text":"Litus Doloris","color":"#ff0000","bold":true}],"minecraft:enchantments":{"levels":{"spore:symbiotic_reconstitution":2,"minecraft:unbreaking":5}},"minecraft:lore":[{"text":"With grief in your heart, keep swimming into the sea of sorrows, for the possibility of finding a shore where you can finally rest still remains.","color":"dark_red","bold":false}],"minecraft:attribute_modifiers":{"modifiers":[{"type":"generic.armor","amount":7.5,"slot":"feet","id":"sporeinquisition:m_feet_0","operation":"add_value"},{"type":"generic.armor_toughness","amount":4.5,"slot":"feet","id":"sporeinquisition:m_feet_1","operation":"add_value"},{"type":"generic.knockback_resistance","amount":0.15,"slot":"feet","id":"sporeinquisition:m_feet_2","operation":"add_value"},{"type":"neoforge:swim_speed","amount":1,"slot":"feet","id":"sporeinquisition:m_feet_3","operation":"add_value"},{"type":"generic.max_health","amount":5,"slot":"feet","id":"sporeinquisition:m_feet_4","operation":"add_value"}]}}
     }
 }
