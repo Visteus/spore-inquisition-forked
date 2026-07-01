@@ -11,14 +11,7 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 import net.neoforged.neoforge.event.server.ServerStoppedEvent;
 
-/**
- * Bridges {@link SIConfig} values into the datapack's {@code !finale} scoreboards.
- *
- * <p>SERVER-type config values are only valid once a world has loaded, so the authoritative apply
- * happens in {@link ServerStartingEvent} (which runs on the server thread). A live {@code /reload}
- * or config edit is handled by {@link SporeInquisition}, which bounces back here via {@link #apply}
- * on the server thread.
- */
+// Bridges the config file values into the in-game scoreboard, so that mcfunctions dont need to be replaced
 public final class ScoreboardSync {
 
     /** The fake-player holder every Spore Inquisition global score lives on. */

@@ -2,16 +2,7 @@ package com.minigato668.sporeinquisition;
 
 import net.neoforged.neoforge.common.ModConfigSpec;
 
-/**
- * Server-side (per-world) config for Spore Inquisition.
- *
- * <p>This is a thin add-on config kept entirely separate from the {@code spore-*.toml} files,
- * which are shipped by the base "spore" mod and are not ours. Values here are pushed into the
- * datapack's {@code !finale} scoreboards by {@link ScoreboardSync} on server start / config
- * reload; the mcfunctions then consume those scoreboards.
- *
- * <p>Generated at {@code <world>/serverconfig/spore-inquisition-server.toml}.
- */
+// A thin java layer that generates the config file and exposes its values to `ScoreboardSync`.
 public final class SIConfig {
 
     public static final ModConfigSpec SPEC;

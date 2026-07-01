@@ -7,13 +7,7 @@ import net.neoforged.fml.config.ModConfig;
 import net.neoforged.fml.event.config.ModConfigEvent;
 import net.neoforged.neoforge.common.NeoForge;
 
-/**
- * Spore Inquisition's thin Java layer.
- *
- * <p>The mod's gameplay still lives in the datapack (mcfunctions + scoreboards). This class only
- * owns a per-world SERVER config ({@link SIConfig}) and bridges its values into the {@code !finale}
- * scoreboards via {@link ScoreboardSync}.
- */
+// A thin java layer that handles config files
 @Mod(SporeInquisition.MODID)
 public class SporeInquisition {
 
