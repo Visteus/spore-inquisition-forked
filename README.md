@@ -23,6 +23,8 @@ src/main/resources/
 ```
 
 ## Building
+Requires Java 21 JDK for building.
+
 Version and other information are set in primarily in `gradle.properties`.
 
 ```sh
