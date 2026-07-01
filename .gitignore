@@ -15,3 +15,6 @@ eclipse/
 run/
 runs/
 original_jars/
+
+# Original distributed jar
+/spore_inquisition_3.1_neo.jar
