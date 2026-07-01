@@ -52,6 +52,8 @@ fillbiome ~400 ~150 ~400 ~-400 ~-150 ~-400 minecraft:snowy_taiga
 fillbiome ~400 ~200 ~400 ~-400 ~-200 ~-400 minecraft:snowy_taiga
 execute at @a[ distance= ..900] run playsound minecraft:block.amethyst_block.chime neutral @a ~ ~ ~ 30 0.1 0
 weather thunder
-forceload remove all
+execute at @s run forceload remove ~-600 ~-600 ~600 ~600
 kill @s
 kill @e[type=item]
+## Old method, but I'm hesitant to use globals hence line 55 above.
+# forceload remove all

@@ -8,7 +8,7 @@ execute as @e[type= spore:gastgaber] at @s run fill ~-25 ~ ~-25 ~25 ~ ~25 spore:
 
 
 #nuke timer
-execute as @e[type=item,nbt={Item:{id:"minecraft:player_head",components:{"minecraft:profile":{properties:[{value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2YwYTI5ZDk0YTdjYTUxODcwYWQ5ZTA3YTJkZTFmZmIwNjYyZmQ4ZDhjOTk1N2MwNGI0ZmFiYWU1NjNjMGM0OCJ9fX0="}]}}}}] run scoreboard objectives add nuke dummy "nule timer"
+execute as @e[type=item,nbt={Item:{id:"minecraft:player_head",components:{"minecraft:profile":{properties:[{value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2YwYTI5ZDk0YTdjYTUxODcwYWQ5ZTA3YTJkZTFmZmIwNjYyZmQ4ZDhjOTk1N2MwNGI0ZmFiYWU1NjNjMGM0OCJ9fX0="}]}}}}] run scoreboard objectives add nuke dummy "nuke timer"
 execute as @e[type=item,nbt={Item:{id:"minecraft:player_head",components:{"minecraft:profile":{properties:[{value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2YwYTI5ZDk0YTdjYTUxODcwYWQ5ZTA3YTJkZTFmZmIwNjYyZmQ4ZDhjOTk1N2MwNGI0ZmFiYWU1NjNjMGM0OCJ9fX0="}]}}}}] unless score @s nuke matches 0.. run scoreboard players set @s nuke 12
 #ice nuke timer
 execute as @e[type=item,nbt={Item:{id:"minecraft:player_head",components:{"minecraft:profile":{properties:[{value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTFiNWY2OWUxOTAxMDE5NGExOWNhZjE4NDM3YzdjYTcxMjIxZTQxM2FhMDg5ZWFmYTQ3YjliZGQ5Zjk5ZGQ4NSJ9fX0="}]}}}}] run scoreboard objectives add ice_nuke dummy "freeze timer"

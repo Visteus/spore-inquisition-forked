@@ -1,5 +1,5 @@
 #timer for events that happend every 20 secs
-schedule function inqui:20_sec_shit 20s
+schedule function inqui:20_sec_timers 20s
 #buffs overcharged calamities
 execute as @e[tag=overcharged_calamity] run function inqui:20sec_calls/calamity
 #buffs overcharged evolved 

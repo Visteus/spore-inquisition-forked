@@ -1,5 +1,5 @@
 #timer for events that happend every 45? secs
-schedule function inqui:40_sec_shit 45s
+schedule function inqui:40_sec_timers 45s
 #anti proto death
 execute as @e[type=spore:proto] at @s run fill ~-1 ~ ~-1 ~1 ~2 ~1 minecraft:air
 #antibio

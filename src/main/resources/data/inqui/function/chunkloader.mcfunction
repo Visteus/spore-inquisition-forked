@@ -1,5 +1,5 @@
-#chunckload for protos
-schedule function inqui:chunckloader 300s
+#chunkload for protos
+schedule function inqui:chunkloader 300s
 forceload remove all
 #remove some overspawners
 execute as @e[type= spore:mound] at @s if entity @e[type=spore:proto, distance= ..175] run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 spore:organite replace spore:overgrown_spawner
