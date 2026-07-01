@@ -1,24 +1,40 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "#X#",
-        "XDX",
-        "#X#"
-    ],
-    "key": {
-        "#": {
-            "item": "spore:reforged_biomass_a"
-        },
-        "X": {
-            "item": "spore:hyperbolized_liver"
-        },
-        "D": {
-            "item": "spore:infected_bow"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#X#",
+    "XDX",
+    "#X#"
+  ],
+  "key": {
+    "#": {
+      "item": "spore:reforged_biomass_a"
     },
-    "result": {
-      "id": "spore:infected_bow",
-      "count": 1,
-      "components": {"minecraft:custom_name":[{"color":"#ff0000","text":"The Fruit of Understanding"}],"minecraft:lore":[{"bold":false,"italic":true,"color":"#b30000","text":"To gain an understanding of what is incomprehensible, they dream, staring."}],"minecraft:custom_data":"{mimicry:1b}","minecraft:enchantments":{"levels":{"spore:corrosive_potency":2,"spore:gastric_spewage":2,"spore:symbiotic_reconstitution":2,"spore:voracious_maw":2,"minecraft:power":15,"minecraft:unbreaking":5}}}
+    "X": {
+      "item": "spore:hyperbolized_liver"
+    },
+    "D": {
+      "item": "spore:infected_bow"
     }
+  },
+  "result": {
+    "id": "spore:infected_bow",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": "[{\"color\":\"#ff0000\",\"text\":\"The Fruit of Understanding\"}]",
+      "minecraft:lore": [
+        "{\"bold\":false,\"italic\":true,\"color\":\"#b30000\",\"text\":\"To gain an understanding of what is incomprehensible, they dream, staring.\"}"
+      ],
+      "minecraft:custom_data": "{mimicry:1b}",
+      "minecraft:enchantments": {
+        "levels": {
+          "spore:corrosive_potency": 2,
+          "spore:gastric_spewage": 2,
+          "spore:symbiotic_reconstitution": 2,
+          "spore:voracious_maw": 2,
+          "minecraft:power": 15,
+          "minecraft:unbreaking": 5
+        }
+      }
+    }
+  }
 }

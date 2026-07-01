@@ -1,7 +1,7 @@
 plugins {
     // NeoForge ModDevGradle: the standard build/dev plugin for NeoForge 1.21.1.
-    // Even though this mod ships no compiled code (it is a pure data + resource
-    // pack add-on for the "spore" mod), ModDevGradle gives us a faithful
+    // The mod is mostly a data + resource pack add-on for the "spore" mod, plus a
+    // thin Java layer (config + scoreboard bridge). ModDevGradle gives us a faithful
     // NeoForge dev environment plus runClient / runServer for testing changes.
     id 'net.neoforged.moddev' version '2.0.78'
 }
@@ -16,6 +16,23 @@ base {
 java {
     // NeoForge 1.21.1 targets Java 21.
     toolchain.languageVersion = JavaLanguageVersion.of(21)
+}
+
+// Interpolate mod metadata from gradle.properties into neoforge.mods.toml so the in-game
+// version/authors/name track gradle.properties (e.g. mod_version=3.1-visteus).
+final Map<String, String> modProps = [
+        minecraft_version: minecraft_version,
+        neoforge_version : neoforge_version,
+        mod_id           : mod_id,
+        mod_name         : mod_name,
+        mod_version      : version.toString(),
+        mod_authors      : mod_authors,
+]
+tasks.named('processResources') {
+    inputs.properties(modProps)
+    filesMatching('META-INF/neoforge.mods.toml') {
+        expand(modProps)
+    }
 }
 
 repositories {

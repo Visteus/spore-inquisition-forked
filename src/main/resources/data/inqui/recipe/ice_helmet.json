@@ -17,7 +17,16 @@
   "result": {
     "id": "spore:gas_mask",
     "count": 1,
-    "components": {"minecraft:custom_name":[{"color":"aqua","text":"CCM"}],"minecraft:custom_data":"{cca:1b}","minecraft:enchantments":{"levels":{"minecraft:protection":3,"minecraft:unbreaking":3}}}
+    "components": {
+      "minecraft:custom_name": "[{\"color\":\"aqua\",\"text\":\"CCM\"}]",
+      "minecraft:custom_data": "{cca:1b}",
+      "minecraft:enchantments": {
+        "levels": {
+          "minecraft:protection": 3,
+          "minecraft:unbreaking": 3
+        }
+      }
+    }
   },
   "show_notification": true
 }

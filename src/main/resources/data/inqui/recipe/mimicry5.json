@@ -1,27 +1,42 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "#Y#",
-        "XDY",
-        "#X#"
-    ],
-    "key": {
-        "#": {
-            "item": "spore:reforged_biomass_w"
-        },
-        "X": {
-            "item": "minecraft:soul_lantern"
-        },
-        "Y": {
-            "item": "minecraft:sculk_catalyst"
-        },
-        "D": {
-            "item": "spore:scythe"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#Y#",
+    "XDY",
+    "#X#"
+  ],
+  "key": {
+    "#": {
+      "item": "spore:reforged_biomass_w"
     },
-    "result": {
-      "id": "spore:scythe",
-      "count": 1,
-      "components": {"minecraft:custom_name":[{"color":"#ff0000","text":"Cheers for the Beginning"}],"minecraft:lore":[{"bold":false,"italic":true,"color":"#b30000","text":"Let us light a flame yet more radiant in our lives; for life is a candlelight, destined to snuff out one day."}],"minecraft:custom_data":"{mimicry:1b}","minecraft:enchantments":{"levels":{"minecraft:efficiency":10,"spore:symbiotic_reconstitution":1,"spore:voracious_maw":1,"minecraft:sharpness":10,"minecraft:unbreaking":5}}}
+    "X": {
+      "item": "minecraft:soul_lantern"
+    },
+    "Y": {
+      "item": "minecraft:sculk_catalyst"
+    },
+    "D": {
+      "item": "spore:scythe"
     }
+  },
+  "result": {
+    "id": "spore:scythe",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": "[{\"color\":\"#ff0000\",\"text\":\"Cheers for the Beginning\"}]",
+      "minecraft:lore": [
+        "{\"bold\":false,\"italic\":true,\"color\":\"#b30000\",\"text\":\"Let us light a flame yet more radiant in our lives; for life is a candlelight, destined to snuff out one day.\"}"
+      ],
+      "minecraft:custom_data": "{mimicry:1b}",
+      "minecraft:enchantments": {
+        "levels": {
+          "minecraft:efficiency": 10,
+          "spore:symbiotic_reconstitution": 1,
+          "spore:voracious_maw": 1,
+          "minecraft:sharpness": 10,
+          "minecraft:unbreaking": 5
+        }
+      }
+    }
+  }
 }

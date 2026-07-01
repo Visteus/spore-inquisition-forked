@@ -1,21 +1,78 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "###",
-        "#D#",
-        "###"
-    ],
-    "key": {
-        "#": {
-            "item": "spore:reforged_biomass_t"
-        },
-        "D": {
-            "item": "spore:inf_up_pants"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#D#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "spore:reforged_biomass_t"
     },
-    "result": {
-      "id": "spore:inf_up_pants",
-      "count": 1,
-      "components": {"minecraft:custom_name":[{"text":"Via Ad Auroram","color":"#ff0000","bold":true}],"minecraft:enchantments":{"levels":{"spore:symbiotic_reconstitution":2,"minecraft:unbreaking":5}},"minecraft:lore":[{"text":"With the last remnants of hope from the souls lost in the harmony of flesh, gallop toward an uncertain horizon, guided by hope until the last dawn breaks.","color":"dark_red","bold":false}],"minecraft:attribute_modifiers":{"modifiers":[{"type":"generic.armor","amount":15,"slot":"legs","id":"sporeinquisition:m_leegs_0","operation":"add_value"},{"type":"generic.armor_toughness","amount":4.5,"slot":"legs","id":"sporeinquisition:m_leegs_1","operation":"add_value"},{"type":"generic.knockback_resistance","amount":0.15,"slot":"legs","id":"sporeinquisition:m_leegs_2","operation":"add_value"},{"type":"generic.movement_speed","amount":0.04,"slot":"legs","id":"sporeinquisition:m_leegs_3","operation":"add_value"},{"type":"generic.step_height","amount":1.5,"slot":"legs","id":"sporeinquisition:m_leegs_4","operation":"add_value"},{"type":"generic.max_health","amount":5,"slot":"legs","id":"sporeinquisition:m_leegs_5","operation":"add_value"}]}}
+    "D": {
+      "item": "spore:inf_up_pants"
     }
+  },
+  "result": {
+    "id": "spore:inf_up_pants",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": "[{\"text\":\"Via Ad Auroram\",\"color\":\"#ff0000\",\"bold\":true}]",
+      "minecraft:enchantments": {
+        "levels": {
+          "spore:symbiotic_reconstitution": 2,
+          "minecraft:unbreaking": 5
+        }
+      },
+      "minecraft:lore": [
+        "{\"text\":\"With the last remnants of hope from the souls lost in the harmony of flesh, gallop toward an uncertain horizon, guided by hope until the last dawn breaks.\",\"color\":\"dark_red\",\"bold\":false}"
+      ],
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "generic.armor",
+            "amount": 15,
+            "slot": "legs",
+            "id": "sporeinquisition:m_leegs_0",
+            "operation": "add_value"
+          },
+          {
+            "type": "generic.armor_toughness",
+            "amount": 4.5,
+            "slot": "legs",
+            "id": "sporeinquisition:m_leegs_1",
+            "operation": "add_value"
+          },
+          {
+            "type": "generic.knockback_resistance",
+            "amount": 0.15,
+            "slot": "legs",
+            "id": "sporeinquisition:m_leegs_2",
+            "operation": "add_value"
+          },
+          {
+            "type": "generic.movement_speed",
+            "amount": 0.04,
+            "slot": "legs",
+            "id": "sporeinquisition:m_leegs_3",
+            "operation": "add_value"
+          },
+          {
+            "type": "generic.step_height",
+            "amount": 1.5,
+            "slot": "legs",
+            "id": "sporeinquisition:m_leegs_4",
+            "operation": "add_value"
+          },
+          {
+            "type": "generic.max_health",
+            "amount": 5,
+            "slot": "legs",
+            "id": "sporeinquisition:m_leegs_5",
+            "operation": "add_value"
+          }
+        ]
+      }
+    }
+  }
 }

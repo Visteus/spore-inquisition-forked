@@ -1,30 +1,45 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "XAX",
-        "ZDZ",
-        "X#X"
-    ],
-    "key": {
-        "A": {
-            "item": "spore:reforged_biomass_t"
-        },
-        "D": {
-            "item": "spore:knife"
-        },
-        "X": {
-            "item": "spore:hardened_bind"
-        },
-        "#": {
-            "item": "spore:voracious_reagent"
-        },
-        "Z": {
-            "item": "spore:living_core"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XAX",
+    "ZDZ",
+    "X#X"
+  ],
+  "key": {
+    "A": {
+      "item": "spore:reforged_biomass_t"
     },
-    "result": {
-      "id": "spore:knife",
-      "count": 1,
-      "components": {"minecraft:custom_name":[{"color":"#ff0000","text":"A Request"}],"minecraft:lore":[{"bold":false,"italic":true,"color":"#b30000","text":"From meaningless errands, to exploration, to contract killing; they will do whatever you wish, so long as you pay them sufficiently."}],"minecraft:custom_data":"{mimicry:1b}","minecraft:enchantments":{"levels":{"spore:symbiotic_reconstitution":1,"minecraft:fortune":10,"minecraft:looting":10,"minecraft:loyalty":5,"minecraft:unbreaking":5}}}
+    "D": {
+      "item": "spore:knife"
+    },
+    "X": {
+      "item": "spore:hardened_bind"
+    },
+    "#": {
+      "item": "spore:voracious_reagent"
+    },
+    "Z": {
+      "item": "spore:living_core"
     }
+  },
+  "result": {
+    "id": "spore:knife",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": "[{\"color\":\"#ff0000\",\"text\":\"A Request\"}]",
+      "minecraft:lore": [
+        "{\"bold\":false,\"italic\":true,\"color\":\"#b30000\",\"text\":\"From meaningless errands, to exploration, to contract killing; they will do whatever you wish, so long as you pay them sufficiently.\"}"
+      ],
+      "minecraft:custom_data": "{mimicry:1b}",
+      "minecraft:enchantments": {
+        "levels": {
+          "spore:symbiotic_reconstitution": 1,
+          "minecraft:fortune": 10,
+          "minecraft:looting": 10,
+          "minecraft:loyalty": 5,
+          "minecraft:unbreaking": 5
+        }
+      }
+    }
+  }
 }

@@ -1,27 +1,43 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "XYZ",
-        "YDY",
-        "ZYX"
-    ],
-    "key": {
-        "Z": {
-            "item": "spore:reforged_biomass_a"
-        },
-        "X": {
-            "item": "spore:acidic_gland"
-        },
-        "Y": {
-            "item": "spore:corrosive_reagent"
-        },
-        "D": {
-            "item": "spore:infected_crossbow"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XYZ",
+    "YDY",
+    "ZYX"
+  ],
+  "key": {
+    "Z": {
+      "item": "spore:reforged_biomass_a"
     },
-    "result": {
-      "id": "spore:infected_crossbow",
-      "count": 1,
-      "components": {"minecraft:custom_name":[{"color":"#ff0000","text":"Armaments"}],"minecraft:lore":[{"bold":false,"italic":true,"color":"#b30000","text":"As they have always done, they will overcome all that impedes them, weapons in hand."}],"minecraft:custom_data":"{mimicry:1b}","minecraft:enchantments":{"levels":{"minecraft:quick_charge":5,"minecraft:piercing":5,"minecraft:multishot":25,"spore:corrosive_potency":1,"minecraft:unbreaking":10,"spore:symbiotic_reconstitution":1}}}
+    "X": {
+      "item": "spore:acidic_gland"
+    },
+    "Y": {
+      "item": "spore:corrosive_reagent"
+    },
+    "D": {
+      "item": "spore:infected_crossbow"
     }
+  },
+  "result": {
+    "id": "spore:infected_crossbow",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": "[{\"color\":\"#ff0000\",\"text\":\"Armaments\"}]",
+      "minecraft:lore": [
+        "{\"bold\":false,\"italic\":true,\"color\":\"#b30000\",\"text\":\"As they have always done, they will overcome all that impedes them, weapons in hand.\"}"
+      ],
+      "minecraft:custom_data": "{mimicry:1b}",
+      "minecraft:enchantments": {
+        "levels": {
+          "minecraft:quick_charge": 5,
+          "minecraft:piercing": 5,
+          "minecraft:multishot": 25,
+          "spore:corrosive_potency": 1,
+          "minecraft:unbreaking": 10,
+          "spore:symbiotic_reconstitution": 1
+        }
+      }
+    }
+  }
 }

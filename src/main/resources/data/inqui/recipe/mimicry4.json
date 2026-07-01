@@ -1,30 +1,45 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "#Y#",
-        "#D#",
-        "X#Z"
-    ],
-    "key": {
-        "#": {
-            "item": "spore:voracious_reagent"
-        },
-        "X": {
-            "item": "spore:amalgamated_roast"
-        },
-        "Y": {
-            "item": "spore:eldritch_sushi"
-        },
-        "Z": {
-            "item": "spore:stuffed_abomination"
-        },
-        "D": {
-            "item": "spore:armads"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#Y#",
+    "#D#",
+    "X#Z"
+  ],
+  "key": {
+    "#": {
+      "item": "spore:voracious_reagent"
     },
-    "result": {
-      "id": "spore:armads",
-      "count": 1,
-      "components": {"minecraft:custom_name":[{"color":"#ff0000","text":"The Eternal Meal"}],"minecraft:lore":[{"bold":false,"italic":true,"color":"#b30000","text":"They fought amongst themselves to eat the others."}],"minecraft:custom_data":"{mimicry:1b}","minecraft:enchantments":{"levels":{"minecraft:efficiency":10,"spore:symbiotic_reconstitution":5,"spore:voracious_maw":5,"minecraft:sharpness":10,"minecraft:unbreaking":5}}}
+    "X": {
+      "item": "spore:amalgamated_roast"
+    },
+    "Y": {
+      "item": "spore:eldritch_sushi"
+    },
+    "Z": {
+      "item": "spore:stuffed_abomination"
+    },
+    "D": {
+      "item": "spore:armads"
     }
+  },
+  "result": {
+    "id": "spore:armads",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": "[{\"color\":\"#ff0000\",\"text\":\"The Eternal Meal\"}]",
+      "minecraft:lore": [
+        "{\"bold\":false,\"italic\":true,\"color\":\"#b30000\",\"text\":\"They fought amongst themselves to eat the others.\"}"
+      ],
+      "minecraft:custom_data": "{mimicry:1b}",
+      "minecraft:enchantments": {
+        "levels": {
+          "minecraft:efficiency": 10,
+          "spore:symbiotic_reconstitution": 5,
+          "spore:voracious_maw": 5,
+          "minecraft:sharpness": 10,
+          "minecraft:unbreaking": 5
+        }
+      }
+    }
+  }
 }

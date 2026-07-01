@@ -1,27 +1,41 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "#Y#",
-        "XDX",
-        "Y#Y"
-    ],
-    "key": {
-        "#": {
-            "item": "spore:reforged_biomass_a"
-        },
-        "X": {
-            "item": "spore:acidic_gland"
-        },
-        "Y": {
-            "item": "spore:corrosive_reagent"
-        },
-        "D": {
-            "item": "spore:rapier"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#Y#",
+    "XDX",
+    "Y#Y"
+  ],
+  "key": {
+    "#": {
+      "item": "spore:reforged_biomass_a"
     },
-    "result": {
-      "id": "spore:rapier",
-      "count": 1,
-      "components": {"minecraft:custom_name":[{"color":"#ff0000","text":"The Sweepers"}],"minecraft:lore":[{"bold":false,"italic":true,"color":"#b30000","text":"When the sun rise up, there will be no remains anymore."}],"minecraft:custom_data":"{mimicry:1b}","minecraft:enchantments":{"levels":{"spore:corrosive_potency":5,"spore:symbiotic_reconstitution":1,"minecraft:sharpness":10,"minecraft:unbreaking":5}}}
+    "X": {
+      "item": "spore:acidic_gland"
+    },
+    "Y": {
+      "item": "spore:corrosive_reagent"
+    },
+    "D": {
+      "item": "spore:rapier"
     }
+  },
+  "result": {
+    "id": "spore:rapier",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": "[{\"color\":\"#ff0000\",\"text\":\"The Sweepers\"}]",
+      "minecraft:lore": [
+        "{\"bold\":false,\"italic\":true,\"color\":\"#b30000\",\"text\":\"When the sun rise up, there will be no remains anymore.\"}"
+      ],
+      "minecraft:custom_data": "{mimicry:1b}",
+      "minecraft:enchantments": {
+        "levels": {
+          "spore:corrosive_potency": 5,
+          "spore:symbiotic_reconstitution": 1,
+          "minecraft:sharpness": 10,
+          "minecraft:unbreaking": 5
+        }
+      }
+    }
+  }
 }

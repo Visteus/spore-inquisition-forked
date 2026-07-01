@@ -1,24 +1,40 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "#X#",
-        "XDX",
-        "#X#"
-    ],
-    "key": {
-        "#": {
-            "item": "spore:reforged_biomass_w"
-        },
-        "X": {
-            "item": "spore:ligaments"
-        },
-        "D": {
-            "item": "spore:combat_pickaxe"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#X#",
+    "XDX",
+    "#X#"
+  ],
+  "key": {
+    "#": {
+      "item": "spore:reforged_biomass_w"
     },
-    "result": {
-      "id": "spore:combat_pickaxe",
-      "count": 1,
-      "components": {"minecraft:custom_name":[{"color":"#ff0000","text":"The Food Chain"}],"minecraft:lore":[{"bold":false,"italic":true,"color":"#b30000","text":"To accustom oneself to the taste was an inevitable process."}],"minecraft:custom_data":"{mimicry:1b}","minecraft:enchantments":{"levels":{"spore:corrosive_potency":2,"spore:gastric_spewage":2,"spore:symbiotic_reconstitution":2,"spore:voracious_maw":2,"minecraft:efficiency":10,"minecraft:unbreaking":5}}}
+    "X": {
+      "item": "spore:ligaments"
+    },
+    "D": {
+      "item": "spore:combat_pickaxe"
     }
+  },
+  "result": {
+    "id": "spore:combat_pickaxe",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": "[{\"color\":\"#ff0000\",\"text\":\"The Food Chain\"}]",
+      "minecraft:lore": [
+        "{\"bold\":false,\"italic\":true,\"color\":\"#b30000\",\"text\":\"To accustom oneself to the taste was an inevitable process.\"}"
+      ],
+      "minecraft:custom_data": "{mimicry:1b}",
+      "minecraft:enchantments": {
+        "levels": {
+          "spore:corrosive_potency": 2,
+          "spore:gastric_spewage": 2,
+          "spore:symbiotic_reconstitution": 2,
+          "spore:voracious_maw": 2,
+          "minecraft:efficiency": 10,
+          "minecraft:unbreaking": 5
+        }
+      }
+    }
+  }
 }

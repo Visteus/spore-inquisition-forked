@@ -17,7 +17,20 @@
   "result": {
     "id": "minecraft:iron_leggings",
     "count": 1,
-    "components": {"minecraft:custom_name":[{"color":"aqua","text":"CCL"}],"minecraft:trim":{"material":"minecraft:diamond","pattern":"minecraft:ward"},"minecraft:custom_data":"{cca:1b}","minecraft:enchantments":{"levels":{"minecraft:protection":3,"minecraft:unbreaking":3}}}
+    "components": {
+      "minecraft:custom_name": "[{\"color\":\"aqua\",\"text\":\"CCL\"}]",
+      "minecraft:trim": {
+        "material": "minecraft:diamond",
+        "pattern": "minecraft:ward"
+      },
+      "minecraft:custom_data": "{cca:1b}",
+      "minecraft:enchantments": {
+        "levels": {
+          "minecraft:protection": 3,
+          "minecraft:unbreaking": 3
+        }
+      }
+    }
   },
   "show_notification": true
 }
