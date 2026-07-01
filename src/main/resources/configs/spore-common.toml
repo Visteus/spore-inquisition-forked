@@ -82,7 +82,7 @@
 	Innards = ["minecraft:bone|50|1|2", "minecraft:rotten_flesh|40|1|1", "minecraft:golden_apple|5|1|1", "spore:tumor|50|1|5", "spore:mutated_fiber|65|1|5"]
 
 [Others]
-	"Infected Player possible names" = ["The_Harbinger69", "Minigato668", "Slasher", "Pyrite", "moparornocar1169", "Chocola_P", "Fresh_cross", "Kara_P", "OmnitaeCyverian", "Soulhunter", "TheAudacity", "Splashpaws", "Apex_Sanctum", "SWOLEFO", "IceCreamStas", "LORD_SEAL", "fritick", "scattered_mushroom", "Ambrose", "Cinnabun0305", "fungalpreacher"]
+	"Infected Player possible names" = ["The_Harbinger69", "Minigato668", "Slasher", "Pyrite", "moparornocar1169", "Chocola_P", "Fresh_cross", "Kara_P", "OmnitaeCyverian", "Soulhunter", "TheAudacity", "Splashpaws", "Apex_Sanctum", "SWOLEFO", "IceCreamStas", "LORD_SEAL", "fritick", "scattered_mushroom", "Ambrose", "Cinnabun0305", "fungalpreacher", "Visteus"]
 	#Items|chance of giving
 	"Head Slot" = ["minecraft:leather_helmet|1"]
 	"Chest Slot" = ["minecraft:leather_chestplate|1"]
