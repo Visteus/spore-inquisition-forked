@@ -14,6 +14,10 @@ public class SporeInquisition {
     public static final String MODID = "sporeinquisition";
 
     public SporeInquisition(IEventBus modBus, ModContainer modContainer) {
+        // Land our replacement spore-*.toml configs on disk before spore parses them. This runs first,
+        // and we're ordered BEFORE spore (neoforge.mods.toml), so the changes take effect this launch.
+        SporeConfigInstaller.install();
+
         // Per-world SERVER config with our own filename, kept separate from the spore-*.toml files.
         modContainer.registerConfig(ModConfig.Type.SERVER, SIConfig.SPEC, "spore-inquisition-server.toml");
 
