@@ -8,6 +8,7 @@ A personal project to modify [Spore Inquisition](https://www.curseforge.com/mine
 3. Some optimizations around the final fight setup to help keep it from crashing worlds/servers.
 4. Minor fixes here and there, mostly the use of relative coordinates which could cause some real problems
 5. Replacement spore configs (`spore-common.toml`, `spore-startup.toml`) are installed automatically before `spore` checks if it needs to install configs. They're refreshed whenever the bundled configs change (fresh install or mod update) and otherwise left alone, so user edits to spore's config should be preserved. Users may need to delete configs to refresh them. 
+6. Overrides of `spore`'s own `data/spore/*` files (recipes, tags, structures, worldgen, weapon_attributes) are forced to win via a separate, always-on, top-priority datapack registered through [`AddPackFindersEvent`](src/main/java/com/minigato668/sporeinquisition/SporeInquisition.java). NeoForge layers each mod's own bundled data pack alphabetically by modid, not by the `ordering=` dependency in `neoforge.mods.toml`, so `spore` would otherwise always outrank `sporeinquisition` on identical paths.
 
 ## Layout
 
@@ -18,6 +19,9 @@ src/main/resources/
 │   ├── inqui/  spore/  ...
 ├── data/                         # datapack: recipes, loot, worldgen, functions, tags
 │   ├── inqui/  spore/  create/  farmersdelight/  incendium/  minecraft/
+├── datapacks/spore_overrides/    # always-on top-priority datapack that forces our replacements
+│   ├── pack.mcmeta               # of spore's own data/spore/* to win (see #6 above)
+│   └── data/spore/  ...
 ├── configs/                      # bundled spore-*.toml config defaults
 ├── pack.mcmeta  pack.png  background.png  load_order.json
 ```
