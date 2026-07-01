@@ -49,10 +49,9 @@ public final class ScoreboardSync {
         Scoreboard sb = server.getScoreboard();
         ScoreHolder finale = ScoreHolder.forNameOnly(HOLDER);
 
-        // Existing datapack toggles. Polarity matches the mcfunctions / 0_config.mcfunction:
         //   no_ordeal: set 1 = disabled, unset = enabled
         //   dream:     set 1 = disabled, unset = enabled
-        //   raids:     set 1 = disabled, 0 = enabled (enable_raids sets 0, disable_raids sets 1)
+        //   raids:     set 1 = disabled, 0 = enabled
         if (SIConfig.ORDEALS_ENABLED.get()) {
             reset(sb, finale, "no_ordeal");
         } else {
@@ -63,7 +62,7 @@ public final class ScoreboardSync {
         } else {
             set(sb, finale, "dream", 1);
         }
-        set(sb, finale, "raids", SIConfig.RAIDS_ENABLED.get() ? 0 : 1);
+        set(sb, finale, "raids", SIConfig.CALAMITY_RAIDS.get() ? 0 : 1);
 
         // New objectives consumed by the edited mcfunctions.
         set(sb, finale, "corruption_rate", SIConfig.CORRUPTION_RATE.get());

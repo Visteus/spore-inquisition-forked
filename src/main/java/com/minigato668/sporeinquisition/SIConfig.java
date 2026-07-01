@@ -18,7 +18,7 @@ public final class SIConfig {
 
     // --- toggles ---
     public static final ModConfigSpec.BooleanValue ORDEALS_ENABLED;
-    public static final ModConfigSpec.BooleanValue RAIDS_ENABLED;
+    public static final ModConfigSpec.BooleanValue CALAMITY_RAIDS;
     public static final ModConfigSpec.BooleanValue AUTOMATIC_FINALITAS;
     public static final ModConfigSpec.BooleanValue DREAM_ENABLED;
 
@@ -39,14 +39,14 @@ public final class SIConfig {
         ORDEALS_ENABLED = b
                 .comment("Enable proto Ordeals (timed boss waves). false fully disables them.")
                 .define("ordealsEnabled", true);
-        RAIDS_ENABLED = b
+        CALAMITY_RAIDS = b
                 .comment("Enable calamity Raids (Eclipse). false fully disables them.")
-                .define("raidsEnabled", true);
+                .define("calamityRaids", true);
         AUTOMATIC_FINALITAS = b
                 .comment(
                         "true: world corruption rises to 100% and triggers Finalitas automatically (vanilla behavior).",
                         "false: natural corruption is capped at 99%; only an offering (given at max corruption) can",
-                        "        begin Finalitas, which plays the lore sequence (~90s) while the dimension warms up.")
+                        "       begin Finalitas, which plays the lore sequence (~90s) while the dimension warms up.")
                 .define("automaticFinalitas", true);
         DREAM_ENABLED = b
                 .comment("Enable the death-dream / parallax event. false disables it.")
