@@ -14,6 +14,4 @@ bin/
 eclipse/
 run/
 runs/
-
-# Original distributed jar (source of truth lives in src/main/resources)
-/spore_inquisition_3.1_neo.jar
+original_jars/

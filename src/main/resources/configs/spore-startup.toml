@@ -50,7 +50,7 @@
 	#Default false
 	"Move the hivemind to the surface once it forms?" = false
 	#Default true
-	"Should evolved and hyper have a damage cap on hard mode?" = true
+	"Should evolved and hyper have a damage cap on hard mode?" = false
 	#Default true
 	"Should a calamity load chunks?" = true
 	"Mobs to not render spore armor on" = ["minecraft:zombie"]
