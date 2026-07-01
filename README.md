@@ -23,6 +23,7 @@ src/main/resources/
 ```
 
 ## Building
+Version and other information are set in primarily in `gradle.properties`.
 
 ```sh
 ./gradlew build
