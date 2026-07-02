@@ -1,4 +1,5 @@
 {
+  "replace": true,
   "values": [
     "spore:remains",
     "spore:biomass_block",
