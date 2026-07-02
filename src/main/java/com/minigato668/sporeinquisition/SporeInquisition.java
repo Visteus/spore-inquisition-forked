@@ -47,15 +47,22 @@ public class SporeInquisition {
         }
     }
 
-    // NeoForge's built-in "mod data" packs are layered alphabetically by modid, not by the
-    // ordering= dependency in neoforge.mods.toml — so "spore" always outranks "sporeinquisition"
-    // there and wins any overlapping data/spore/* path. This registers our replacements for
-    // spore's own data (src/main/resources/datapacks/spore_overrides/) as a separate, always-on,
-    // top-priority pack so they win regardless of mod load/name order.
+    // NeoForge's built-in "mod data"/"mod resources" packs are layered alphabetically by modid,
+    // not by the ordering= dependency in neoforge.mods.toml — so "spore" always outranks
+    // "sporeinquisition" there and wins any overlapping data/spore/* or assets/spore/* path.
+    // These register our replacements for spore's own data and assets as separate, always-on,
+    // top-priority packs so they win regardless of mod load/name order.
     private void onAddPackFinders(AddPackFindersEvent event) {
         event.addPackFinders(
                 ResourceLocation.fromNamespaceAndPath(MODID, "datapacks/spore_overrides"),
                 PackType.SERVER_DATA,
+                Component.literal("Spore Inquisition Overrides"),
+                PackSource.BUILT_IN,
+                true,
+                Pack.Position.TOP);
+        event.addPackFinders(
+                ResourceLocation.fromNamespaceAndPath(MODID, "resourcepacks/spore_overrides"),
+                PackType.CLIENT_RESOURCES,
                 Component.literal("Spore Inquisition Overrides"),
                 PackSource.BUILT_IN,
                 true,
