@@ -1,6 +1,6 @@
 #Bring the players into the (already warmed-up) finalitas dimension and start the final fight.
 # say [SI-DBG] 17_enter: teleporting players into finalitas (finale setup complete)
-execute as @a at @s in inqui:finalitas run tp @s 5000 0 -5000
+execute in inqui:finalitas run spreadplayers 5000 -5000 7 24 under 10 false @a
 playsound spore:sonar ambient @a ~ ~ ~ 5 0.5 1
 gamerule doMobSpawning true
 scoreboard players set !finale finalitas 1
